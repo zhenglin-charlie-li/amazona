@@ -1,0 +1,21 @@
+{
+  "name": "lzl-amazona",
+  "version": "1.0.0",
+  "description": "# Lessons",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install --legacy-peer-deps && cd ../frontend && npm install --legacy-peer-deps && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhengLin-Li/amazona.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhengLin-Li/amazona/issues"
+  },
+  "homepage": "https://github.com/ZhengLin-Li/amazona#readme"
+}

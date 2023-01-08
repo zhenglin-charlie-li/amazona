@@ -1,26 +1,6 @@
 # MERN AMAZONA
 
-![picture](https://www.freecodecamp.org/news/content/images/size/w2000/2020/03/1_qgxaya.png)
-
-# What is the project about
-
-Amazona - A MERN Stack ECommerce Website
-
-MERN: MongoDB, Express, React and Node.js
-
-🥳 Live Demo: [http://zhenglinli.me/amazona/livedemo](http://zhenglinli.me/amazona/livedemo)
-
-# What I learned from this project
-
-1. React Bootstrap: Semantic Elements, CSS Grid, Flexbox
-2. React: Components, Props, Events, Hooks, Router, Axios
-3. Context API: Store, Reducers, Actions
-4. Node & Express: Web API, Body Parser, File Upload, JWT
-5. MongoDB: Mongoose, Aggregation
-6. Development: ESLint, Babel, Git, Github,
-7. Deployment: GitHub Pages
-
-# My Process
+# Lessons
 
 1. Introduction
 2. Install Tools

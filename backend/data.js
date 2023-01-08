@@ -18,7 +18,7 @@ const data = {
   products: [
     {
       // _id: '1',
-      name: 'Backend Nike Slim shirt',
+      name: 'Nike Slim shirt',
       slug: 'nike-slim-shirt',
       category: 'Shirts',
       image: '/images/p1.jpg', // 679px × 829px

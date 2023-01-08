@@ -1,4 +1,6 @@
 import jwt from 'jsonwebtoken';
+import nodemailer from 'nodemailer';
+// import mg from 'mailgun-js';
 
 export const generateToken = (user) => {
   return jwt.sign(
@@ -38,4 +40,94 @@ export const isAdmin = (req, res, next) => {
   } else {
     res.status(401).send({ message: 'Invalid Admin Token' });
   }
+};
+
+export const mailgun = async (email_address, order) => {
+  var smtp = process.env.SMTP;
+  var mailFrom = process.env.SENDER;
+  var mailPwd = process.env.PASSWORD;
+  let transporter = nodemailer.createTransport({
+    host: smtp,
+    port: 465,
+    secure: true, // true for 465, false for other ports
+    auth: {
+      user: mailFrom, // generated ethereal user
+      pass: mailPwd, // generated ethereal password
+    },
+    ignoreTLS: true, // add this
+    tls: {
+      rejectUnAuthorized: true,
+    },
+  });
+
+  // send mail with defined transport object
+  let info = await transporter.sendMail({
+    from: '"Amazona Shopping Plantform" <1125806272@qq.com>', // sender address
+    to: email_address, // list of receivers
+    subject: 'Thanks for shopping in Amazona 🥳', // Subject line
+    // text: 'Hello world?111', // plain text body
+    html: payOrderEmailTemplate(order), // html body
+  });
+
+  // console.log(info);
+};
+
+export const payOrderEmailTemplate = (order) => {
+  return `<h1>Thanks for shopping with us</h1>
+  <p>
+  Hi ${order.user.name},</p>
+  <p>We have finished processing your order.</p>
+  <h2>[Order ${order._id}] (${order.createdAt.toString().substring(0, 10)})</h2>
+  <table>
+  <thead>
+  <tr>
+  <td><strong>Product</strong></td>
+  <td><strong>Quantity</strong></td>
+  <td><strong align="right">Price</strong></td>
+  </thead>
+  <tbody>
+  ${order.orderItems
+    .map(
+      (item) => `
+    <tr>
+    <td>${item.name}</td>
+    <td align="center">${item.quantity}</td>
+    <td align="right"> $${item.price.toFixed(2)}</td>
+    </tr>
+  `
+    )
+    .join('\n')}
+  </tbody>
+  <tfoot>
+  <tr>
+  <td colspan="2">Items Price:</td>
+  <td align="right"> $${order.itemsPrice.toFixed(2)}</td>
+  </tr>
+  <tr>
+  <td colspan="2">Shipping Price:</td>
+  <td align="right"> $${order.shippingPrice.toFixed(2)}</td>
+  </tr>
+  <tr>
+  <td colspan="2"><strong>Total Price:</strong></td>
+  <td align="right"><strong> $${order.totalPrice.toFixed(2)}</strong></td>
+  </tr>
+  <tr>
+  <td colspan="2">Payment Method:</td>
+  <td align="right">${order.paymentMethod}</td>
+  </tr>
+  </table>
+
+  <h2>Shipping address</h2>
+  <p>
+  ${order.shippingAddress.fullName},<br/>
+  ${order.shippingAddress.address},<br/>
+  ${order.shippingAddress.city},<br/>
+  ${order.shippingAddress.country},<br/>
+  ${order.shippingAddress.postalCode}<br/>
+  </p>
+  <hr/>
+  <p>
+  Thanks for shopping with us.
+  </p>
+  `;
 };

@@ -10,6 +10,8 @@ MERN: MongoDB, Express, React and Node.js
 
 🥳 Live Demo: [ https://mern-amazona-lzl.herokuapp.com/]( https://mern-amazona-lzl.herokuapp.com/)
 
+🥳 Docs: [ ZhengLin-Li.github.io/amazona]( ZhengLin-Li.github.io/amazona)
+
 
 # What I learned from this project
 

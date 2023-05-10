@@ -8,7 +8,7 @@ Amazona - A MERN Stack ECommerce Website
 
 MERN: MongoDB, Express, React and Node.js
 
-🥳 Live Demo: [ https://mern-amazona-lzl.herokuapp.com/]( https://mern-amazona-lzl.herokuapp.com/)
+🥳 Live Demo: [ https://mern-amazona-lizhenglin.herokuapp.com/ ]( https://mern-amazona-lizhenglin.herokuapp.com/ )
 
 🥳 Docs: [https://ZhengLin-Li.github.io/amazona](https://ZhengLin-Li.github.io/amazona)
 

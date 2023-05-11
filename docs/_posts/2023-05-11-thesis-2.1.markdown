@@ -1,0 +1,55 @@
+---
+layout: post
+title: '2.Overview of Relevant Technologies'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+# 2.Overview of Relevant Technologies
+
+## 2.1.Overview of E-commerce
+
+E-commerce refers to the process of conducting commercial activities on the Internet, including various aspects such as e-commerce websites, electronic payments, logistics and delivery, and online customer services. The development of e-commerce has greatly transformed traditional business models, bringing convenience and business opportunities to both consumers and businesses.
+
+### 2.1.1.Emergence of E-commerce
+
+The emergence of e-commerce is the result of multiple factors. In the 1990s, Internet technology began to gradually popularize, and network bandwidth improved significantly, enabling people to conveniently browse information, shop, and engage in transactions online. At the same time, pioneering e-commerce platforms such as Amazon and eBay emerged, providing not only the convenience of online shopping but also a wider range of product choices for consumers.
+
+Over time, e-commerce technology and infrastructure have continuously improved and developed. The emergence of online payment technologies and electronic wallets has made it more convenient and secure for users to make online payments. The development of logistics and delivery systems allows users to receive their purchased goods in a short period of time. Meanwhile, e-commerce platforms have also started to offer more comprehensive services and features such as online customer support, user reviews, and recommendation systems, providing consumers with a more intelligent shopping experience.
+
+Especially under the impact of the COVID-19 pandemic, the significance of e-commerce has been further highlighted. With the implementation of social distancing measures, physical stores and commercial establishments were forced to close, making online shopping and e-commerce even more important and popular. Many people have started to use e-commerce platforms more frequently to purchase goods and services, leading to an increased growth rate in e-commerce. Meanwhile, many businesses have also accelerated their transformation into e-commerce platforms to adapt to the new market environment.
+
+The rise of e-commerce has had a profound impact on business models and ecosystems. Traditional business models relied on physical stores for sales, while e-commerce enables businesses to conduct operations more flexibly and expand their markets. Simultaneously, e-commerce allows consumers to conveniently purchase goods and services while providing them with more choices. The rapid development of e-commerce globally has brought about new business opportunities and challenges.
+
+### 2.1.2.Classification of E-commerce
+
+E-commerce can be classified based on various criteria. Here are some common classification methods:
+Classification by transaction subjects
+
+a. B2B (Business-to-Business): Refers to e-commerce activities conducted between businesses, such as supply chain management, procurement, and sales.
+
+b. B2C (Business-to-Consumer): Refers to e-commerce activities where businesses sell products or services directly to individual consumers, such as online shopping and food delivery. This is the category to which the system described in this article belongs.
+
+c. C2C (Consumer-to-Consumer): Refers to e-commerce activities conducted between individual consumers, such as second-hand trading platforms and sharing economy platforms.
+
+d. C2B (Consumer-to-Business): Refers to e-commerce activities where individual consumers provide products or services to businesses, such as influencer advertising and individual knowledge-based services.
+
+### 2.1.3.Challenges of E-commerce
+
+Although e-commerce brings convenience and business opportunities to companies and consumers, it also faces various challenges. Here are some common challenges:
+
+Competitive pressure: The e-commerce market is highly competitive, with many competitors. Therefore, companies need to innovate and improve continuously to maintain a competitive advantage.
+
+Security issues: With the increase in e-commerce transactions, network security issues have become more prominent. E-commerce companies must take measures to protect customers' personal information and transaction data.
+
+Logistics and delivery: E-commerce relies on logistics and delivery services, but challenges in transportation and delivery, such as lost, delayed, or damaged packages, still exist.
+
+Trust issues: Consumers need to trust e-commerce companies, but some companies engage in false advertising, fraud, or provide low-quality products, which can affect the reputation of the entire industry.
+
+Policy and legal issues: Different countries and regions have different e-commerce policies and regulations. Companies need to comply with these regulations to avoid legal problems.
+
+Supply chain management: E-commerce companies need to manage the supply chain to ensure product quality and reliability while maintaining inventory levels and operational costs balance. These challenges require e-commerce companies to take proactive measures to maintain a competitive advantage and sustainable growth.
+
+### 2.1.4.Trends in E-commerce
+
+In the future, e-commerce will continue to develop and expand. For example, new technologies such as mobile internet, social media, and big data will bring more opportunities and challenges to e-commerce. Additionally, trends like automation and personalized customization will become important directions for the development of e-commerce. Overall, e-commerce has become an indispensable business field, offering significant opportunities and challenges for both companies and consumers.

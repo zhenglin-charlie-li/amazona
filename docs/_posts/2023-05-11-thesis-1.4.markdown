@@ -1,0 +1,26 @@
+---
+layout: post
+title: '1.4.Organization and Structure of the Thesis'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+## 1.4.Organization and Structure of the Thesis
+
+The main body of this thesis consists of seven main chapters and appendices, which are as follows:
+
+Part One: Introduction. This chapter introduces the research background of this project, including the research motivation, objectives, and significance. An overview of the current domestic and foreign research status related to this project is provided, pointing out the deficiencies and problems that need to be addressed in the current research. This chapter also provides a detailed introduction to the main work of this paper, including the research goals, methods, contents, and innovations of this project.
+
+Part Two: Overview of Related Technologies. This chapter provides an overview of the relevant technologies involved in the project, compares and selects various technologies involved in the project, including their advantages, disadvantages, applicable scenarios, and scope of application, and selects the technologies used in this project.
+
+Part Three: Requirements Analysis of the Microservices E-commerce System. This chapter provides a detailed analysis of the project's requirements, including user requirements, functional requirements, performance requirements, etc., and prioritizes and clarifies the requirements.
+
+Part Four: Design of the Microservices E-commerce System. This chapter provides a detailed description of the project's detailed design, including detailed design of each functional module, database design, interface design, etc., and provides corresponding design diagrams and explanations.
+
+Part Five: Implementation of the Microservices E-commerce System. This chapter provides a detailed description of the implementation environment, tools, and system operating environment of the project.
+
+Part Six: Testing of the Microservices E-commerce System. This chapter mainly introduces the testing-related content of the microservices e-commerce system, including the setup of the testing environment, design of the testing program and testing data, methods of testing execution and recording, as well as analysis of testing results.
+
+Part Seven: Conclusion and Reflection. This chapter summarizes the work and reflections during the design and implementation of the microservices e-commerce system.
+
+Appendices: In the appendices section, this paper provides the requirements specification, user manual, detailed design specification, and unit testing report.

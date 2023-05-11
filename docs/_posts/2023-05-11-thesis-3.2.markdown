@@ -1,0 +1,26 @@
+---
+layout: post
+title: '3.2.System Requirements Analysis - Non-Functional Requirements'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+## 3.2.System Requirements Analysis - Non-Functional Requirements
+
+Unlike functional requirements that emphasize specific functions or tasks that software must implement, non-functional requirements focus more on the quality and characteristics of the software system. For example, performance requirements typically address the responsiveness, throughput, and resource consumption of the software system. Reliability requirements focus on the system's fault handling and recovery capabilities, while usability requirements concern the ease of use and user experience of the software system.
+
+For the microservices e-commerce system project described in this document, the following are the non-functional requirements:
+Performance Requirements: The website should have fast response times and high throughput to handle a large number of simultaneous user requests. Especially during peak periods like promotional campaigns, the website should support a high volume of access requests to maintain a good user experience.
+
+Agile Development Requirement: The website should have the capability for rapid agile development to quickly handle changing requirements. In today's internet era, user demands change rapidly, so agile development is a non-functional requirement for this project.
+
+Scalability Requirement: As the website's business and user base grow, the website should have scalability to meet future demands. The website should be designed with a highly scalable architecture to facilitate the addition of new features and handle larger workloads.
+
+Reliability Requirement: The e-commerce website should have a high level of reliability to ensure stable operation in most circumstances. The website should be designed with high availability and fault tolerance to prevent single points of failure and data loss.
+
+User Experience Requirement: The website should provide an excellent user experience to attract and retain users. This includes having an intuitive user interface, good user navigation, and responsive design.
+Security Requirement: The website should have a high level of security to protect users' personal and payment information. The website should employ various measures such as SSL encryption, firewalls, anti-spam, and antivirus software to prevent hackers and other security threats.
+
+Maintainability Requirement: The website should have good code quality and readability to facilitate easy modification and maintenance by developers when necessary. The website should adhere to standardized coding and design practices to ensure code extensibility and maintainability.
+
+Compatibility Requirement: The website should support multiple platforms and devices, providing a good user experience across different browsers and operating systems. The website should employ responsive design to ensure an excellent user experience on various devices.

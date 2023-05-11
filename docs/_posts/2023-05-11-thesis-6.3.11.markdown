@@ -1,0 +1,20 @@
+---
+layout: post
+title: '1.1.Introduction'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+6.3.11.Logistics Query Service Testing
+(1) Test Case: Successful query
+Expected Result: Successful query and return of order logistics information
+Actual Result: Successful query and return of order logistics information
+Pass/Fail: Pass
+(2) Test Case: Non-existent order ID
+Expected Result: Query fails and returns an error message
+Actual Result: Query fails and returns an error message
+Pass/Fail: Pass
+(3) Test Case: Inputting illegal characters
+Expected Result: Query fails and returns an error message
+Actual Result: Query fails and returns an error message
+Pass/Fail: Pass

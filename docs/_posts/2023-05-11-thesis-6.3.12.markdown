@@ -1,0 +1,20 @@
+---
+layout: post
+title: '1.1.Introduction'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+6.3.12.Logistics Update Service Testing
+(1) Test Case: Successful update of logistics information
+Expected Result: Successful update and return of update result
+Actual Result: Successful update and return of update result
+Pass/Fail: Pass
+(2) Test Case: Failed update of logistics information
+Expected Result: Update fails and returns an error message
+Actual Result: Update fails and returns an error message
+Pass/Fail: Pass
+(3) Test Case: Inputting illegal characters
+Expected Result: Update fails and returns an error message
+Actual Result: Update fails and returns an error message
+Pass/Fail: Pass

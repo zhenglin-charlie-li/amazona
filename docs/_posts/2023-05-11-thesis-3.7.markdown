@@ -1,0 +1,12 @@
+---
+layout: post
+title: '3.7.System Behavior Analysis'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+3.7.System Behavior Analysis
+
+A State Diagram is a chart that describes the states of a system and the transitions between them. It describes the behavior of a system in a series of possible states and under what conditions it transitions from one state to another. The State Diagram for this system is shown below:
+
+Figure 4 State Diagram

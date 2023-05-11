@@ -1,0 +1,27 @@
+---
+layout: post
+title: '6.Testing of Microservices E-commerce System'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+# 6.Testing of Microservices E-commerce System
+
+Software system testing is a process of inspecting, assessing, and validating a software system to ensure it meets the expected functionality and quality requirements. It is an important phase in the software development lifecycle that helps identify and rectify defects, errors, and issues, thereby enhancing the reliability, security, and performance of the software system. Software system testing is a crucial step in ensuring the quality of a software system, requiring comprehensive, systematic, and standardized testing approaches to ensure the reliability and stability of the software system.
+
+Software system testing typically involves the following aspects:
+
+Requirements analysis testing: In the early stages of software development, testers collaborate with business analysts to examine and validate the software requirements documentation to ensure its accuracy, completeness, and consistency.
+Unit testing: Developers write test cases to verify the functionality of each module or function, ensuring that each unit operates correctly.
+
+Integration testing: Integration testing involves combining individual unit tests to test the interaction and communication between different parts of the system.
+
+System testing: System testing involves testing the functionality, performance, reliability, security, and user-friendliness of the entire software system to ensure it meets the expected requirements and goals.
+
+Acceptance testing: Testers or client representatives perform testing on the entire software system to verify whether it meets the client's requirements and expectations, ultimately deciding whether to accept the software system.
+
+Performance testing: Performance testing evaluates the performance of a software system under specific workloads. These tests aim to determine metrics such as response time, throughput, concurrent user count, resource utilization, and stability under normal usage conditions.
+
+Software system testing can be achieved through manual testing and automated testing. Manual testing involves manually executing test cases and inspecting test results, while automated testing uses testing tools and scripts to simulate user actions and execute test cases, thereby improving testing efficiency and accuracy.
+
+This system employs both automated testing and manual testing.

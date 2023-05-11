@@ -1,0 +1,20 @@
+---
+layout: post
+title: '6.1.Testing Environment'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+## 6.1.Testing Environment
+
+Operating System: Ubuntu 22.04.2 LTS (GNU/Linux 5.15.90.1-microsoft-standard-WSL2 x86_64)
+
+IDE: Visual Studio Code
+
+Frontend Package Management Tool: npm 9.6.2, yarn 1.22.19
+
+Database: MongoDB Atlas Database - The Cloud-Native Database
+
+Testing Support: Postman
+
+Cloud Service: Amazon Web Services (AWS)

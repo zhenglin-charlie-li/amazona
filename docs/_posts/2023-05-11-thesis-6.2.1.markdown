@@ -1,0 +1,46 @@
+---
+layout: post
+title: '6.2.Test Program and Test Data Design'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+## 6.2.Test Program and Test Data Design
+
+### 6.2.1.User Registration Service Testing
+
+(1) Test Case: Successful registration
+
+Test Steps:
+
+Enter a username, password, and email address.
+
+Click the registration button.
+
+Verify that the returned result is a success.
+
+Expected Result: Successful registration and return of the user ID.
+
+(2) Test Case: Username already exists
+
+Test Steps:
+
+Enter an already existing username, password, and email address.
+
+Click the registration button.
+
+Verify that the returned result is a failure and check the error message.
+
+Expected Result: Registration fails and returns an error message.
+
+(3) Test Case: Input of illegal characters
+
+Test Steps:
+
+Enter a username, password, and email address with illegal characters.
+
+Click the registration button.
+
+Verify that the returned result is a failure and check the error message.
+
+Expected Result: Registration fails and returns an error message.

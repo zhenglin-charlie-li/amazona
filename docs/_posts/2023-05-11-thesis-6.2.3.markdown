@@ -1,0 +1,70 @@
+---
+layout: post
+title: '6.2.3.User Information Service Testing'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+### 6.2.3.User Information Service Testing
+
+(1) Test Case: Successful retrieval of user information
+
+Test Steps:
+
+Enter the correct user ID.
+
+Send a request to retrieve user information.
+
+Verify if the returned result contains the correct username, email address, and order history.
+
+Expected Result: Successful retrieval of user information.
+
+(2) Test Case: Retrieval of non-existent user information
+
+Test Steps:
+
+Enter a non-existent user ID.
+
+Send a request to retrieve user information.
+
+Verify if the returned result is a failure and check the error message.
+
+Expected Result: Retrieval of user information fails and returns an error message.
+
+(3) Test Case: Input of an illegal user ID
+
+Test Steps:
+
+Enter an illegal user ID, such as a negative number or a non-string type.
+
+Send a request to retrieve user information.
+
+Verify if the returned result is a failure and check the error message.
+
+Expected Result: Retrieval of user information fails and returns an error message.
+
+(4) Test Case: Retrieval of user information with empty order history
+
+Test Steps:
+
+Enter the correct user ID, but the user's order history is empty.
+
+Send a request to retrieve user information.
+
+Verify if the returned result contains the correct username and email address, and check if the order history is empty.
+
+Expected Result: Successful retrieval of user information, but the order history is empty.
+
+(5) Test Case: Database error during retrieval of user information
+
+Test Steps:
+
+Simulate a database error, such as closing the database connection or deleting user information.
+
+Enter the correct user ID.
+
+Send a request to retrieve user information.
+
+Verify if the returned result is a failure and check the error message.
+
+Expected Result: Retrieval of user information fails and returns an error message.

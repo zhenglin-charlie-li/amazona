@@ -1,0 +1,28 @@
+---
+layout: post
+title: '1.1.Introduction'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+References
+[1] Zhang, J., Liu, H., Han, L., et al. (2012). A Review of Research on E-commerce Service Quality. Modern Management Science, 5, 92-94.
+[2] Zou, J. (2014). Personalized E-commerce Product Recommendation Method Based on Big Data. Electronic Production, 10X, 97-97, 96.
+[3] Vasan, S. (2017). Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node.
+[4] Subramanian, V. (2018). MERN Full Stack Development: Using Mongo, Express, React, and Node. Beijing: Tsinghua University Press.
+[5] He, Q. (2014). Big Data and Cloud Computing. Technology Promotion, 1, 35-40.
+[6] Baron, J., Baz, H., Bixler, T., Gaut, B., Kelly, K. E., Senior, S., & Stamper, J. (2016). AWS Certified Solutions Architect Official Study Guide: Associate Exam. John Wiley & Sons.
+[7] Liu, D., He, C., Peng, X., Lin, F., Zhang, C., Gong, S., Li, Z., Ou, J., & Wu, Z. (2021). Microhecl: High-efficient root cause localization in large-scale microservice systems. In 2021 IEEE/ACM 43rd International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP) (pp. 338-347). IEEE.
+[8] Wang, Y. (2018). Microservice Architecture in Practice. Electronic Technology Application, 44(9), 99-101.
+[9] Yang, C. (2017). Application Analysis of Microservices in Internet Finance. Science & Technology Vision, 33, 142-142.
+[10] Liu, Z. Y., & Xiao, J. (2018). Construction of Rural E-commerce Model Based on Cloud Computing. Journal of Agronomy, 8(7).
+[11] Chen, K., & Zheng, W. (2009). Cloud Computing: System Instance and Research Status. Journal of Software, 1(20), 1337-1348.
+[12] Hu, Y. D. (2018). Design and Implementation of E-commerce System Based on Microservices (Master's thesis, Huazhong University of Science and Technology).
+[13] Zhang, X., Yang, J., Sun, X., & Wu, J. (2018). A Survey of Distributed Cloud. Journal of Software, 29(7), 2116-2132.
+[14] Zhang, M., Li, P., & Xie, J. (2019). Design and Implementation of E-commerce System in Cloud Computing Environment. Computer Engineering and Design, 40(2), 371-376.
+[15] Zhao, J., & Ding, J. (2017). Application Research of AWS Cloud Computing Technology in E-commerce Platform. Journal of Network and Information Security, 3(4), 26-30.
+[16] Wang, Y. (2018). Architecture Design of Cloud Computing E-commerce Platform Based on Microservices. Computer Application, 38(9), 2718-2721.
+[17] Liu, X. B., & Li, L. (2019). Design and Implementation of Microservice Architecture for E-commerce Platform. Communications Technology, 52(4), 177-181.
+[18] Wu, J. F., & Chen, Y. (2020). Performance Testing of E-commerce Website Based on AWS. Computer Knowledge and Technology, 16(14), 110-112.
+[19] Fang, B. Y., Zhang, Y. Y., Cheng, Y., & Xu, L. (2010). Analysis of the Development Status of Cloud Computing at Home and Abroad. Telecommunications Science, 26(8), 1-6.
+[20] Guo, Y., Yin, C., Li, M., Ren, X., & Liu, P. (2018). Mobile E-commerce Recommendation System Based on Multi-source Information Fusion for Sustainable E-business. Sustainability, 10(1), 147.

@@ -1,0 +1,81 @@
+---
+layout: post
+title: '4.3.System Database Design'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+## 4.3.System Database Design
+
+System database design is a crucial aspect of e-commerce system development. It involves the storage, retrieval, and management of data, requiring the design of appropriate data structures and tables to support system functionality.
+
+### 4.3.1.Product Data
+
+Product data is one of the essential data in an e-commerce system, including information such as product name, description, price, and inventory. In the system, product data should be stored in a product data table, which consists of the following fields:
+
+- Product ID: Each product should have a unique product ID to distinguish different products.
+- Product Name: The name of the product displayed on the website.
+- Product Description: A description of the product, highlighting its features and characteristics.
+- Product Price: The price of the product used for calculating order totals and revenue.
+- Product Image: An image of the product to showcase its appearance and details.
+- Product Inventory: The quantity of the product in stock, managing its availability and stock-out status.
+- Product Category: The category to which the product belongs, facilitating user browsing and search.
+
+### 4.3.2.Order Data
+
+Order data is another important data in an e-commerce system, encompassing details such as order ID, purchased items, buyer information, payment details, and shipping information. In the system, order data should be stored in an order data table, which includes the following fields:
+
+- Order ID: Each order should have a unique order ID to distinguish different orders.
+- Product ID: The ID of the purchased product, recording the product information for the user.
+- Buyer ID: The ID of the buyer, capturing the buyer's personal information.
+- Payment Method: The payment method used by the buyer, storing payment details.
+- Shipping Method: The chosen shipping method by the buyer, recording shipping information.
+- Order Status: The status of the order, indicating various stages such as pending payment, awaiting shipment, and delivered.
+- Order Total: The total price of the order, tracking the order's total cost and revenue.
+
+### 4.3.3.User Data
+
+User data is another crucial data in an e-commerce system, encompassing user account information, personal details, and shipping addresses. In the system, user data should be stored in a user data table, which includes the following fields:
+
+- User ID: Each user should have a unique user ID to distinguish different users.
+- Username: The account name used for login and authentication.
+- Password: The user's password for securing the account information.
+- Nickname: The user's nickname displayed for personal identification.
+- Email: The user's email address for receiving system messages and password recovery.
+- Phone Number: The user's phone number for receiving system messages and identity verification.
+- Shipping Address: The user's shipping address information for recording delivery destinations.
+
+### 4.3.4.Shopping Cart Data
+
+Shopping cart data is used to record the items added by the user to their cart, along with information such as the quantity and price of the items. The shopping cart data can be designed as a separate table with the following fields:
+
+- Cart ID: A unique identifier for the cart record, generated using auto-increment primary keys or UUIDs.
+- User ID: The ID of the user to whom the cart belongs, associated with the user information table.
+- Product ID: The ID of the product added to the cart, linked to the product information table.
+- Product Quantity: The quantity of the product added to the cart.
+- Product Price: The price of the product added to the cart, calculated based on the price from the product information table.
+
+### 4.3.5.Review Data
+
+Review data is used to record user evaluations of products, including review content, rating, and timestamp. The review data can be designed as a separate table with the following fields:
+
+- Review ID: A unique identifier for the review record, generated using auto-increment primary keys or UUIDs.
+- User ID: The ID of the user to whom the review belongs, associated with the user information table.
+- Product ID: The ID of the product to which the review relates, linked to the product information table.
+- Review Content: The content of the user's review for the product, which can be designed as a TEXT type.
+- Review Rating: The user's rating for the product, for example, on a scale of 1 to 5 stars.
+- Review Timestamp: The timestamp indicating when the review was recorded.
+
+### 4.3.6.Design Considerations
+
+When designing the data tables, the system considers the following points:
+
+- Tables should conform to database normalization: To minimize data redundancy and avoid data inconsistency, tables should adhere to database normalization, including the first, second, and third normal forms [9].
+- Tables should be appropriately decomposed: To improve data query efficiency and scalability, tables should be properly decomposed, avoiding storing all data in a single table.
+- Tables should have indexes: To enhance data query performance, tables should have suitable indexes, such as primary key indexes, unique indexes, and regular indexes.
+- Tables should have meaningful names: To facilitate future maintenance and management, tables should have appropriate names following certain naming conventions, such as using meaningful table and field names.
+- Tables should consider data security: To protect user privacy and ensure system security, tables should consider data security measures, such as encrypting passwords and anonymizing sensitive data.
+
+### 4.3.7.Database Schema Diagram
+
+Figure 5: Database Schema Diagram

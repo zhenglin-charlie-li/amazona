@@ -1,0 +1,16 @@
+---
+layout: post
+title: '1.1.Introduction'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+7.Summary of Work and Reflections
+7.1.Work Summary
+This graduation thesis primarily focuses on the design and implementation of an e-commerce system based on the microservices architecture. The thesis first introduces the relevant background knowledge, including microservices architecture, MERN technology stack, MongoDB Atlas, AWS, and describes the main work content of the thesis, including system requirements analysis, system design, microservices architecture design, microservices development and integration, security and reliability assurance, testing and evaluation, performance optimization, deployment and operation, etc.
+In the introduction to background knowledge, the thesis presents background knowledge about e-commerce, microservices architecture, Node.js, and other related knowledge. Understanding these knowledge areas is crucial for comprehending the design and implementation of the microservices e-commerce system.
+In the system requirements analysis, the thesis analyzes the functional and non-functional requirements of the e-commerce system and further examines the characteristics of system data, functionality, behavior, and runtime environment. Additionally, detailed explanations are provided regarding the performance analysis of the system, including response time, concurrency, scalability, reliability, and security.
+In the system design, the thesis first introduces the design principles of microservices and the characteristics of microservices architecture. It then proceeds to design the system database and software architecture, including product data, order data, user data, shopping cart data, review data, etc.
+In the microservices architecture design, the thesis analyzes the design principles of microservices architecture and further designs microservices such as product service, order service, user service, shopping cart service, review service, etc., using RESTful APIs for communication between services. Additionally, the design and implementation of service deployment and operation are also discussed.
+In the implementation and testing, the thesis presents the development and integration of microservices, security and reliability assurance, testing and evaluation, and performance optimization. Finally, the thesis summarizes the research work and proposes some prospects for future research directions.
+Overall, the research content of this thesis possesses certain innovation and practicality, providing valuable references for the design and implementation of e-commerce systems based on the microservices architecture.

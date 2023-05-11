@@ -1,0 +1,22 @@
+---
+layout: post
+title: '2.4.Overview of Amazon Web Services'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+## 2.4.Overview of Amazon Web Services
+
+Amazon Web Services (AWS) is a cloud computing service platform provided by Amazon.com. It offers a wide range of cloud computing services in various domains, including computing, storage, databases, networking, artificial intelligence, IoT, security, analytics, and application integration. AWS has the following characteristics:
+
+Cloud Infrastructure on a Global Scale: AWS operates multiple regions and availability zones globally. Users can choose appropriate regions and availability zones to deploy and run applications, achieving low latency, high availability, and disaster recovery capabilities.
+
+High Scalability: AWS provides highly scalable services such as Elastic Compute Cloud (EC2) and Simple Storage Service (S3). Users can flexibly scale up or down their computing and storage resources based on business needs, avoiding the limitations of traditional hardware infrastructure.
+
+Flexibility and Reliability: AWS offers a rich set of services and solutions, allowing users to choose different service combinations according to their needs, enabling flexible application development to meet diverse business requirements. AWS adopts multi-layered security measures and provides highly reliable infrastructure and services to ensure the security and reliability of user data and applications.
+
+Rich Services and Solutions: AWS offers a wide range of services covering various domains such as computing, storage, databases, networking, security, artificial intelligence, IoT, analytics, and application integration. It caters to different business scenarios and requirements.
+
+Powerful developer tools and support community: AWS offers a wide range of developer tools and SDKs that enable developers to easily build, test, deploy, and manage applications. Additionally, AWS has a large support community that provides rich documentation, learning resources, and technical support to help users better utilize and manage AWS services.
+
+On-demand billing and flexible payment models: AWS offers an on-demand billing payment model where users can pay for the services they actually use, avoiding the high costs of traditional hardware investment and maintenance. Furthermore, AWS offers multiple flexible payment models such as reserved instances, storage capacity, etc. to help users choose the appropriate payment method according to their business needs.

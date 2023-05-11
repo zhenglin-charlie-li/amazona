@@ -1,0 +1,27 @@
+---
+layout: post
+title: '6.2.11.Logistics Query Service Testing'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+6.2.11.Logistics Query Service Testing
+(1) Test case: Successful query
+Test steps:
+Enter the order ID;
+Initiate a query request;
+Verify if the return result is successful;
+Verify if the return result includes shipping status, logistics company, waybill number, and logistics information.
+Expected result: Successful query and return of order logistics information.
+(2) Test case: Non-existent order ID
+Test steps:
+Enter a non-existent order ID;
+Initiate a query request;
+Verify if the return result is a failure and check the error message.
+Expected result: Query fails and returns an error message.
+(3) Test case: Inputting illegal characters
+Test steps:
+Enter an order ID with illegal characters;
+Initiate a query request;
+Verify if the return result is a failure and check the error message.
+Expected result: Query fails and returns an error message.

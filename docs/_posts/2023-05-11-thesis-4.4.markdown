@@ -1,0 +1,53 @@
+---
+layout: post
+title: '4.4.System Software Architecture Design'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+## 4.4.System Software Architecture Design
+
+The system software architecture design includes an overview of the system, architectural style, system components, system deployment, and other aspects. This section provides a brief explanation, along with corresponding component and deployment diagrams.
+
+### 4.4.1.System Overview
+
+This system is an e-commerce system designed based on the microservices architecture, adopting a front-end and back-end separation approach. The system mainly consists of modules such as user management, product management, order management, and payment management. Access control and routing are performed through an API gateway.
+
+### 4.4.2.Technology Stack View
+
+Figure 6: Technology Stack View
+
+### 4.4.3.Architectural Style
+
+This system adopts the microservices architectural style, where the system is divided into multiple small service modules. Each module runs, deploys, and maintains independently. The use of microservices improves the flexibility, scalability, and maintainability of the system, and also facilitates team collaboration and code reuse.
+
+### 4.4.4.System Components
+
+The system primarily consists of the following components:
+
+1. API Gateway: Receives user requests and performs access control and routing.
+1. User Registration Service
+1. User Login Service
+1. User Information Service
+1. Product Catalog Service
+1. Product Search Service
+1. Product Detail Service
+1. Cart Service
+1. Order Management Service
+1. Payment Gateway Service
+1. Payment Callback Service
+1. Logistics Query Service
+1. Logistics Update Service
+1. Review Query Service
+1. Review Submit Service
+
+### 4.4.5.System Deployment
+
+The deployment of this system can utilize containerization technology with Docker for containerized deployment. The system mainly consists of the following parts:
+
+- Database: Used for storing various data of the system. Databases such as MongoDB or MySQL can be employed.
+- API Gateway: Technologies like Nginx or Kong can be used for the API gateway.
+- Microservices: Each microservice can be packaged as a Docker image and then deployed and managed using Docker Compose.
+
+The following diagram illustrates the system deployment:
+Figure 7: Deployment Diagram

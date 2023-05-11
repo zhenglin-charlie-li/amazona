@@ -1,0 +1,44 @@
+---
+layout: post
+title: '6.2.4.Product Catalog Service Testing'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+### 6.2.4.Product Catalog Service Testing
+
+(1) Test Case: Retrieval of existing product information
+
+Test Steps:
+
+Enter an existing product ID.
+
+Call the API to retrieve product information.
+
+Verify if the returned result contains the correct product name, description, and price.
+
+Expected Result: Successful retrieval of product information with correct details.
+
+(2) Test Case: Retrieval of non-existent product information
+
+Test Steps:
+
+Enter a non-existent product ID.
+
+Call the API to retrieve product information.
+
+Verify if the returned result is a failure and check the error message.
+
+Expected Result: Retrieval of product information fails and returns an error message.
+
+(3) Test Case: Input of an illegal product ID
+
+Test Steps:
+
+Enter an illegal product ID, such as including special characters or exceeding the length limit.
+
+Call the API to retrieve product information.
+
+Verify if the returned result is a failure and check the error message.
+
+Expected Result: Retrieval of product information fails and returns an error message.

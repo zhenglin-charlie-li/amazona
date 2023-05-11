@@ -1,0 +1,14 @@
+---
+layout: post
+title: '1.3.Main Work of the Thesis'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+## 1.3.Main Work of the Thesis
+
+The main work of this graduation project (thesis) is to design and implement an e-commerce system based on the microservices architecture.
+
+Specifically, the aim of this graduation project (thesis) is to design and implement an e-commerce system based on the microservices architecture. The main tasks include system requirements analysis, microservices architecture design, data storage design, deployment and operation design, security design, performance testing design, and other aspects. In the system requirements analysis phase, this paper first analyzes the functional and non-functional requirements of the e-commerce system. In terms of microservices architecture design, this paper determines the microservice modules that the system needs to be divided into, the API interfaces that each module needs to provide, and how they collaborate. In data storage design, this paper determines the data storage components that the system needs to use, as well as how to design data table structures and caching strategies. In terms of deployment and operation design, this paper determines the tools needed for system deployment and management, and how to ensure high availability and elastic scalability of the system. In terms of security design, this paper determines the security measures that the system needs to use to ensure the security of system data. In terms of performance testing design, this paper determines the performance testing that the system needs to undergo, and how to evaluate the system's performance and bottlenecks. Subsequently, this paper carries out work such as microservices architecture design, API interface design, microservices development and integration, security and reliability assurance.
+
+Finally, this paper successfully designs and implements an e-commerce system based on the microservices architecture, conducts testing and evaluation, and completes this thesis.

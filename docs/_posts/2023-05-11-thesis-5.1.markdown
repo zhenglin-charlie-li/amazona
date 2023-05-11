@@ -1,0 +1,51 @@
+---
+layout: post
+title: '5.Implementation of Microservice E-commerce System'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+# 5.Implementation of Microservice E-commerce System
+
+## 5.1.Brief Description of Implementation Environment and Tools
+
+### 5.1.1.Development Environment - Operating System
+
+Ubuntu 22.04.2 LTS (GNU/Linux 5.15.90.1-microsoft-standard-WSL2 x86_64)
+Ubuntu 22.04.2 LTS (Long-Term Support) is a Linux operating system distribution released by Canonical. It is the second point release of the Ubuntu 20.04 LTS series. Ubuntu 22.04 LTS is a long-term support version that will receive 5 years of technical support, including security updates and maintenance, until April 2027. Ubuntu 22.04.2 LTS is a stable, secure, and user-friendly operating system suitable for both desktop and server environments.
+
+### 5.1.2.IDE - Visual Studio Code
+
+Visual Studio Code (VS Code) is an open-source, cross-platform integrated development environment (IDE) developed by Microsoft. It is primarily used for writing and debugging code in various programming languages, including JavaScript, TypeScript, Python, C++, Java, and more. It is widely popular in the developer community and is one of the most beloved open-source code editors.
+Some key features and functionalities of VS Code include: cross-platform support, rich extension ecosystem, built-in debugging capabilities, built-in Git support, intelligent code completion, and syntax highlighting.
+
+### 5.1.3.Front-end Package Management Tools - npm, yarn
+
+npm and yarn are common front-end package management tools used to manage various JavaScript libraries, frameworks, plugins, and other resources required in a project. They automate the downloading, installation, updating, and management of these resources, making front-end development more efficient and convenient.
+npm: npm (Node Package Manager) is the default package management tool for Node.js. It can manage and distribute Node.js modules and also be used to manage various JavaScript libraries and plugins required for front-end projects. It has a vast package repository with millions of open-source packages that can be installed, updated, and managed using command-line tools.
+yarn: yarn is a front-end package management tool developed by Facebook. Building on the experience of npm, it aims to provide a faster and more reliable package management experience. It supports parallel installation and caching mechanisms, allowing faster installation and updating of packages. It also provides richer commands and configuration options to help developers better manage project dependencies.
+
+### 5.1.4.Database - MongoDB
+
+MongoDB is an open-source distributed NoSQL database known for its high scalability, performance, and flexible data modeling capabilities. Unlike traditional relational databases, MongoDB adopts a document model to store data, allowing storage of complex data structures and supporting nested documents and array-type fields.
+Some key features and functionalities of MongoDB include: high scalability, powerful querying and indexing, flexible data modeling, built-in aggregation framework, and open-source nature. MongoDB is an open-source project with an active community, extensive developer and user base, making it easy to obtain technical support and assistance.
+
+### 5.1.5.Testing Support - Postman
+
+Postman is a powerful testing support tool primarily used for testing and developing API interfaces. It helps developers and testers easily create, share, test, and debug API interfaces, thereby improving testing and development efficiency and quality.
+Some key features of Postman include: creating and sending requests, automated testing (Postman can create test scripts to automatically execute API interface testing and validate the correctness and performance of interfaces), environment and variable management, integration and sharing, and interface documentation generation.
+
+### 5.1.6.Deployment Environment - Heroku
+
+Heroku is a cloud platform as a service (PaaS) provider that helps developers easily deploy, run, and scale applications. Heroku provides a user-friendly interface and command-line tools, supporting multiple programming languages and frameworks such as Node.js, Ruby, Python, Java, etc., enabling developers to quickly deploy and run applications.
+Some key features and functionalities of Heroku include: user-friendly interface and command-line tools, multi-language support, automated deployment, horizontal scaling (Heroku supports horizontal scaling), application monitoring, and log management.
+
+### 5.1.7.Deployment Environment - Amazon Web Services (AWS)
+
+Amazon Web Services (AWS) is a powerful cloud computing platform that offers a range of cloud computing services, including virtual machines, storage, databases, networking, security, etc. It also supports multiple programming languages and frameworks such as Java, Python, Node.js, etc. AWS provides a range of tools and services to help developers easily deploy, run, and manage applications.
+Some key features and functionalities of AWS include: global performance, various cloud computing services, flexible scalability, rich tools and services, and security and reliability.
+
+### 5.1.8.Deployment Environment - MongoDB Atlas
+
+Database MongoDB Atlas is a fully managed NoSQL database service provided by MongoDB. It offers a global and scalable cloud database service that helps developers easily deploy and manage MongoDB databases.
+Some key features and functionalities of MongoDB Atlas include: automated management, elastic scalability, security and reliability, multi-cloud support, and flexible deployment options.

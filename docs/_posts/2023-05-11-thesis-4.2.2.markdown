@@ -1,0 +1,41 @@
+---
+layout: post
+title: '4.2.2.User Login Service'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+### 4.2.2.User Login Service
+
+(1) Service Name: User Login Service
+
+(2) Function Description: This microservice is responsible for validating user credentials and issuing access tokens. When a user logs in, this service verifies the provided credentials and issues an access token containing user information. The tokens are generated in JSON Web Token (JWT) format and include the user ID and other user information.
+
+(3) User Login Interface Definition:
+
+Input Parameters:
+
+Username: String representing the user's username.
+
+Password: String representing the user's password.
+
+Output Parameters:
+
+Access Token: String representing the access token generated upon successful login.
+User ID: String representing the user ID returned after successful login.
+Login Result: Boolean indicating the success of the login operation.
+Error Message: String representing the error message in case of login failure.
+
+(4) Architecture Design:
+
+Utilize a RESTful API design pattern to send user login requests to the server using the HTTP protocol for request transmission and processing.
+
+Generate access tokens in JSON Web Token (JWT) format, including user information and expiration time, ensuring the security and reliability of access tokens.
+
+Use Redis as a cache store, with the access token as the key and user information as the value, enabling fast retrieval and validation of access tokens.
+
+(5) Error Handling:
+
+Return appropriate error information, including error codes and descriptions, when login requests fail, allowing clients to handle error scenarios correctly.
+
+Employ logging techniques to record and monitor runtime errors and exceptions, facilitating troubleshooting and issue localization by operations personnel.

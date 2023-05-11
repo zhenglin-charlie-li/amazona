@@ -1,0 +1,41 @@
+---
+layout: post
+title: '1.2.Current Technological Landscape in China and Abroad'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+## 1.2.Current Technological Landscape in China and Abroad
+
+### 1.2.1.Microservices Architecture
+
+Microservices architecture is a service-centric software development pattern that breaks down an application into a set of small, autonomous services that can be deployed, scaled, and managed independently. The primary goals of microservices architecture are to enhance the flexibility, scalability, and maintainability of applications, enabling developers to develop and deploy applications more quickly and easily.
+
+Microservices architecture has become a hot topic in modern software development, attracting significant attention from researchers and developers. It has gained widespread attention and research in recent years, particularly in the application of large-scale internet companies. Major companies such as Netflix, Amazon, Uber, and eBay have adopted microservices architecture to cope with the complexity and variability of their extensive software systems. Some prominent Chinese internet companies, including Alibaba, Tencent, and Baidu, have also started adopting microservices architecture and have accumulated rich experience through practical implementations.
+
+Microservices architecture has become a crucial topic in modern software development and will continue to receive attention from researchers and developers in the future.
+
+However, the implementation of a microservices e-commerce system using the MERN technology stack is relatively rare in China. Therefore, this paper provides such an implementation.
+
+### 1.2.2.MERN Technology Stack
+
+The MERN technology stack (MongoDB + Express + React + Node.js) is a JavaScript stack used for building modern web applications, incorporating a range of front-end and back-end technologies that are widely applied in web development worldwide. Here is an overview of the current technological landscape of the MERN technology stack in China and abroad:
+
+International Technological Landscape:
+
+MongoDB: MongoDB is a widely used NoSQL database abroad, adopted by many large internet companies and startups such as Google, Amazon, and Facebook. MongoDB has an active community abroad, providing abundant documentation, resources, and excellent developer communities and organizations.
+
+Express: Express, as a popular Node.js backend framework, has gained extensive application abroad. Many enterprises and teams use Express to build web applications, and there are numerous communities and organizations that provide substantial support and resources.
+
+React: React, as a leading front-end UI library, has been widely applied globally. Many companies and teams use React to build complex front-end applications, and there are large communities and libraries that receive considerable attention.
+Chinese Technological Landscape:
+
+MongoDB: In China, MongoDB is widely used as a NoSQL database in web applications of many large internet companies such as Alibaba, Tencent, and Baidu. With the continuous development of big data and cloud computing technologies, MongoDB's adoption in China is gradually increasing.
+
+Express: Express is a popular Node.js backend framework, and the developer community in China has a relatively high level of interest in it, although not as high as abroad. The excellent developer communities and groups based on Express are still in the development stage.
+
+React: React, as a front-end UI library, also has extensive application in China. Many companies and teams use React to build complex front-end applications, and some excellent React component libraries and UI frameworks have gained high attention in China.
+
+Node.js: As the backend environment of the MERN technology stack, Node.js has been widely adopted in China, particularly in high-concurrency and real-time web applications. Node.js, as a lightweight and high-performance backend technology, is favored by developers in China. There are also Node.js technology communities and developer communities in China that provide abundant resources and support.
+
+Overall, compared to abroad, there is a relatively smaller number of professional talents in the MERN technology stack in China, and community development is still incomplete. Therefore, this paper uses the MERN technology stack to implement the microservices e-commerce system, serving as an example for the use of the MERN technology stack in China.

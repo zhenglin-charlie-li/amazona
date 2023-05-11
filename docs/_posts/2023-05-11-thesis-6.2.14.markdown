@@ -1,0 +1,39 @@
+---
+layout: post
+title: '6.2.14.Evaluation Submission Service Test'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+6.2.14.Evaluation Submission Service Test
+(1) Test case: Evaluation submission success scenario
+Test steps:
+Input the correct Product ID, User ID, Evaluation Rating, and Comment Content;
+Send the evaluation request;
+Verify that the return result is successful and obtain the evaluation ID;
+Verify that the evaluation ID is correct.
+Expected result: The evaluation is successfully submitted, and the correct evaluation ID is returned.
+(2) Test case: Product ID does not exist scenario
+Test steps:
+Input a non-existent Product ID, correct User ID, Evaluation Rating, and Comment Content;
+Send the evaluation request;
+Verify that the return result is a failure and check the error message;
+Expected result: The evaluation submission fails, and an error message is returned.
+(3) Test case: User ID does not exist scenario
+Test steps:
+Input the correct Product ID, non-existent User ID, Evaluation Rating, and Comment Content;
+Send the evaluation request;
+Verify that the return result is a failure and check the error message;
+Expected result: The evaluation submission fails, and an error message is returned.
+(4) Test case: Illegal Evaluation Rating input scenario
+Test steps:
+Input the correct Product ID, User ID, illegal Evaluation Rating, and Comment Content;
+Send the evaluation request;
+Verify that the return result is a failure and check the error message;
+Expected result: The evaluation submission fails, and an error message is returned.
+(5) Test case: Empty Comment Content scenario
+Test steps:
+Input the correct Product ID, User ID, Evaluation Rating, and empty Comment Content;
+Send the evaluation request;
+Verify that the return result is a failure and check the error message;
+Expected result: The evaluation submission fails, and an error message is returned.

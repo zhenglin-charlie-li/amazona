@@ -1,0 +1,18 @@
+---
+layout: post
+title: '3.6.System Functional Analysis'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+## 3.6.System Functional Analysis
+
+System functional analysis involves analyzing system functions to clarify system requirements and provide a foundation for system design. Use case diagrams, sequence diagrams, and activity diagrams are commonly used tools for functional analysis.
+
+A use case diagram is a graphical tool used to describe the functionality and behavior of a system, and it is an important tool for system requirement analysis. Use case diagrams clarify the system's functionality and the relationships between functions and use cases by describing the system's interactions with the external environment. The use case diagram for the e-commerce system should include various users (customers, merchants, administrators, etc.) and the system's functions, such as login, browsing products, placing orders, payment, logistics, etc. The use case diagram should clearly depict the relationships between different use cases, such as inheritance relationships, inclusion relationships, etc. The use case diagram for the e-commerce system in this article is as follows:
+
+[Image: Use Case Diagram]
+
+Sequence diagrams are a type of timing diagram used to describe the interaction processes within a system. Sequence diagrams provide a clear depiction of the business processes within the system by representing the sequence and timing of interactions between objects. The sequence diagram for the e-commerce system should describe the interaction processes between users and the system, such as the process of searching for products, placing orders, making payments, etc. The sequence diagram should clearly describe the message passing and the timing between the user and the system. The sequence diagrams for the e-commerce system in this article are as follows:
+
+[Image: Sequence Diagram 1] [Image: Sequence Diagram 2]

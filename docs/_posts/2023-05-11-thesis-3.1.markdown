@@ -1,0 +1,34 @@
+---
+layout: post
+title: '3.Microservices E-commerce System Requirements Analysis'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+# 3.Microservices E-commerce System Requirements Analysis
+
+In the development of software systems, system analysis and design is a crucial phase. Its main purpose is to understand user requirements, design the structure and functionality of the system, and plan the resources and time required to implement the system.
+
+The process of system analysis and design includes multiple stages such as requirement analysis, high-level design, and detailed design. Among them, requirement analysis refers to the detailed investigation and analysis of user requirements in order to clarify the system's functional and performance requirements. High-level design is based on the requirement analysis, where the overall structure of the system is designed and planned to meet user needs and system performance requirements. Detailed design, on the other hand, involves detailed design and planning of various components of the system based on the high-level design to ensure system efficiency, stability, and reliability.
+
+## 3.1.System Requirement Analysis - Functional Requirements
+
+In software development, functional requirements are the functions or features that software or a system must implement in order to fulfill business objectives. These requirements describe the functionalities or tasks that the software must possess and are typically proposed by clients or users, and implemented by the development team throughout the software development process. In the early stages of the software development lifecycle, functional requirements often serve as a communication tool between the development team and the clients or users, helping the team understand the expectations and needs of the clients or users and translating them into specific achievable requirements.
+
+For the microservices e-commerce system project described in this document, the following are the functional requirements:
+
+(1) User registration and login: The website allows users to register and create an account, and provides a login feature for users to access their personal information, shopping cart, order history, and other related information.
+
+(2) Product display: The website allows users to browse through the products available on the website. The product display page must include product name, image, price, description, and other relevant information.
+
+(3) Product search and filtering: The website allows users to search and filter products so that they can quickly find the products they are looking for. This includes filtering options such as price, brand, color, size, and rating.
+
+(4) Product detail page: The website provides detailed product information page for users to view detailed information, price, stock availability, and reviews of a product.
+
+(5) Shopping cart and checkout: The website allows users to add products to the shopping cart and provides a checkout feature to complete the purchase. The checkout page must include product information, total price, shipping options, and payment options.
+
+(6) Order management and tracking: The website provides order management and tracking functionality for users to view their order history and order status. The website provides useful tracking information such as shipping date, shipping company name, and tracking number.
+
+(7) User reviews and feedback: The website allows users to leave comments and ratings on products and provide feedback and suggestions. These reviews and feedback must be visible to other users and help them make better purchasing decisions.
+
+(8) User account management: The website allows users to manage their account information such as password modification, personal information updates, and viewing order history.

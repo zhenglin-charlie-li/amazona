@@ -1,0 +1,41 @@
+---
+layout: post
+title: '4.E-commerce Microservices System Design'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+# 4.E-commerce Microservices System Design
+
+System design refers to the process of defining the system architecture, selecting technology solutions, designing system modules, and data structures for a specific system or software based on requirements analysis [7]. The aim of system design is to ensure that the system meets user needs while possessing characteristics such as high availability, reliability, scalability, and security [8].
+
+## 4.1.Main Microservices Architecture Design
+
+The backend of the e-commerce system presented in this paper consists of the following microservices:
+
+(1) User Registration Service: Handles user registration requests. When a user submits a registration form, this service validates the form information and stores the user's information in the user database. The service securely stores user passwords using password hashing algorithms.
+
+(2) User Login Service: Validates user credentials and issues access tokens. When a user logs in, this service verifies the provided credentials and issues an access token containing user information. Tokens are generated in JSON Web Token (JWT) format and include user IDs and other user information.
+
+(3) User Information Service: Provides user information such as username, email address, order history, etc. Other services can invoke this service to retrieve information about users.
+
+(4) Product Catalog Service: Provides product catalog information. This service stores product catalog information such as product names, descriptions, prices, etc. Client applications can retrieve product information by calling this service.
+
+(5) Product Search Service: Handles product search requests. When a client application requests to search for products, this service retrieves products containing the search keywords and returns a list of products that match the search criteria. The service may use search engines or database queries to perform the search.
+
+(6) Product Detail Service: Provides detailed product information such as product images, reviews, etc. Client applications can retrieve more detailed product information by calling this service.
+
+(7) Cart Service: Handles requests to add, remove, or update items in the shopping cart. This service stores the shopping cart information in the client application and provides a set of APIs to allow changes to the cart.
+
+(8) Order Management Service: Creates, cancels, and processes orders. This service handles order requests from the client application, creates orders, and updates inventory and payment status. The order service also notifies other services, such as the payment service and logistics service, to ensure proper handling of orders.
+
+(9) Payment Gateway Service: Handles payment requests and sends requests to third-party payment providers. This service communicates with third-party payment providers and processes payment requests when submitted by the client application. The service also handles payment failures and refunds.
+
+(10) Payment Callback Service: Handles payment callbacks from third-party payment providers. This service is invoked when the third-party payment provider sends payment result notifications to the e-commerce system. It updates the order payment status and notifies the order service to update the order status.
+
+(11) Logistics Query Service: Provides logistics information query service. This service offers order logistics information, including shipment status, logistics company, waybill number, etc.
+
+(12) Logistics Update Service: Updates the logistics information of orders. This service is called when there are updates to the order's logistics information and stores the updated logistics information in the logistics database.
+(13) Review Query Service: Provides product review information. This service offers product review information, including ratings, review content, etc.
+
+(14) Review Submit Service: Handles product reviews submitted by the client application. This service stores the product reviews submitted by the client application in the review database and notifies other services (such as the product detail service) to update the product review information.

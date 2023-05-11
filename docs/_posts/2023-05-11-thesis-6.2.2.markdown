@@ -1,0 +1,44 @@
+---
+layout: post
+title: '6.2.2.User Login Service Testing'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+### 6.2.2.User Login Service Testing
+
+(1) Test Case: Normal login
+
+Test Steps:
+
+Enter the correct username and password.
+
+Click the login button.
+
+Verify that the returned result is a success.
+
+Expected Result: Successful login and return of the access token and user ID.
+
+(2) Test Case: Incorrect username or password
+
+Test Steps:
+
+Enter an incorrect username or password.
+
+Click the login button.
+
+Verify that the returned result is a failure and check the error message.
+
+Expected Result: Login fails and returns an error message.
+
+(3) Test Case: Missing username or password
+
+Test Steps:
+
+Do not enter a username or password.
+
+Click the login button.
+
+Verify that the returned result is a failure and check the error message.
+
+Expected Result: Login fails and returns an error message.

@@ -1,0 +1,32 @@
+---
+layout: post
+title: '2.2.Overview of Microservices Architecture'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+## 2.2.Overview of Microservices Architecture
+
+Microservices Architecture is a software architectural style that divides a large application into a set of small, independent services. Each service runs in its own process and communicates with other services through lightweight communication mechanisms. Microservices architecture emphasizes the autonomy and replaceability of services, making application development and maintenance easier.
+
+### 2.2.1.History of Microservices Architecture
+
+The concept of microservices architecture can be traced back to Service-Oriented Architecture (SOA). SOA architecture emphasizes dividing an application into a set of services that communicate with each other to accomplish business functionalities.
+
+Microservices architecture builds upon the foundation of SOA architecture, emphasizing finer-grained service divisions and lightweight communication mechanisms.
+
+### 2.2.2.Characteristics of Microservices Architecture
+
+Modularity: Microservices architecture divides a large application into a set of small, independent services that can be deployed and maintained independently.
+
+Replaceability: Microservices architecture emphasizes the autonomy of services, allowing each service to be replaced or upgraded independently without affecting the stability of the entire application.
+
+Lightweight Communication: Microservices architecture utilizes lightweight communication mechanisms such as RESTful APIs, message queues, etc., to facilitate efficient communication between services.
+
+Automated Deployment: Microservices architecture enables rapid iteration and deployment through automated deployment processes.
+
+### 2.2.3.Applications of Microservices Architecture
+
+Microservices architecture is suitable for large-scale applications and complex business scenarios such as e-commerce, finance, logistics, etc. It enhances the maintainability, scalability, and reliability of applications, making them easier to develop and maintain.
+
+In summary, Microservices Architecture is a software architectural style that divides a large application into a set of small, independent services. Each service can be deployed and maintained independently, emphasizing autonomy and replaceability of services. It employs lightweight communication mechanisms and is applicable to large-scale applications and complex business scenarios.

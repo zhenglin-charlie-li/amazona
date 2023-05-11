@@ -1,0 +1,28 @@
+---
+layout: post
+title: '6.3.3.User Information Service Test'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+6.3.3.User Information Service Test
+(1) Test case: Successfully retrieving user information scenario
+Expected result: Successfully retrieved user information
+Actual result: Successfully retrieved user information
+Test pass/fail: Passed
+(2) Test case: Retrieving information of a non-existent user scenario
+Expected result: Failed to retrieve user information and returned an error message
+Actual result: Failed to retrieve user information and returned an error message
+Test pass/fail: Passed
+(3) Test case: Inputting an illegal user ID scenario
+Expected result: Failed to retrieve user information and returned an error message
+Actual result: Failed to retrieve user information and returned an error message
+Test pass/fail: Passed
+(4) Test case: Retrieving user's empty order history scenario
+Expected result: Successfully retrieved user information, but the order history is empty
+Actual result: Successfully retrieved user information, but the order history is empty
+Test pass/fail: Passed
+(5) Test case: Database error while retrieving user information scenario
+Expected result: Failed to retrieve user information and returned an error message
+Actual result: Failed to retrieve user information and returned an error message
+Test pass/fail: Passed

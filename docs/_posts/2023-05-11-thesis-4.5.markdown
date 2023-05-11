@@ -1,0 +1,11 @@
+---
+layout: post
+title: '4.5.Component-Level Design'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+## 4.5.Component-Level Design
+
+Component-Level Design involves the relationships and interactions between various components in the system. The system component diagram for this system is as follows:
+Figure 8: Component Diagram

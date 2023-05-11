@@ -1,0 +1,22 @@
+---
+layout: post
+title: '3.3.System Requirements Analysis - Development Requirements'
+date: 2023-05-11 10:49:33 +0800
+categories: Notes
+---
+
+## 3.3.System Requirements Analysis - Development Requirements
+
+Using the MERN technology stack for development offers several advantages in the following aspects:
+
+Front-end Development: React, a popular and flexible front-end framework in the MERN stack, provides features such as componentization, virtual DOM, and state management, enabling rapid development of pages and interactive effects.
+
+Back-end Development: Node.js and Express in the MERN stack provide fast backend development capabilities with features like efficient asynchronous I/O, event-driven programming, and RESTful APIs, allowing for high-performance and scalable backend services.
+
+Database: MongoDB, a NoSQL database in the MERN stack, offers flexible data structures, fast query speeds, and scalability, making it suitable for storing and querying different data requirements.
+
+Tools and Libraries: The MERN stack provides a rich set of tools and libraries, such as Webpack, Babel, Redux, and Mongoose, which enhance development efficiency and code quality, reducing development costs and complexity.
+
+Testing and Debugging: The MERN stack includes tools and libraries that support various testing methods like unit testing, integration testing, and end-to-end testing. These tools help ensure code quality and stability while providing extensive debugging capabilities to quickly identify and resolve issues.
+
+Security and Performance: The libraries and frameworks in the MERN stack offer features and techniques for security and performance optimization, such as preventing XSS and CSRF attacks, encrypting data transmission, caching, and load balancing.

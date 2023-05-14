@@ -1,11 +1,12 @@
 ---
 layout: post
-title: '1.1.Introduction'
+title: '6.3.4.Product Catalog Service Test'
 date: 2023-07-10 10:49:33 +0800
 categories: Notes
 ---
 
-6.3.4.Product Catalog Service Test
+### 6.3.4.Product Catalog Service Test
+
 (1) Test Case: Retrieving existing product information
 Expected Result: Successfully retrieve product information and return correct product details
 Actual Result: Successfully retrieve product information and return correct product details

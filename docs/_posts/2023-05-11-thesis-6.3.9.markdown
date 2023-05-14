@@ -1,11 +1,12 @@
 ---
 layout: post
-title: '1.1.Introduction'
+title: '6.3.9.Payment Gateway Service Test'
 date: 2023-07-14 10:49:33 +0800
 categories: Notes
 ---
 
-6.3.9.Payment Gateway Service Test
+### 6.3.9.Payment Gateway Service Test
+
 (1) Test Case: Successfully create a payment request
 Expected Result: Successfully create a payment request and return the correct format of payment request ID
 Actual Result: Successfully create a payment request and return the correct format of payment request ID

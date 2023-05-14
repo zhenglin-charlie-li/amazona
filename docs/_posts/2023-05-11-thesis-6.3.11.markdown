@@ -1,11 +1,12 @@
 ---
 layout: post
-title: '1.1.Introduction'
+title: '6.3.11.Logistics Query Service Testing'
 date: 2023-07-16 10:49:33 +0800
 categories: Notes
 ---
 
-6.3.11.Logistics Query Service Testing
+### 6.3.11.Logistics Query Service Testing
+
 (1) Test Case: Successful query
 Expected Result: Successful query and return of order logistics information
 Actual Result: Successful query and return of order logistics information

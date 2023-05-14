@@ -5,7 +5,8 @@ date: 2023-06-29 10:49:33 +0800
 categories: Notes
 ---
 
-6.2.7.Shopping Cart Service Testing
+### 6.2.7.Shopping Cart Service Testing
+
 (1) Test Case: Successful addition of a product to the shopping cart
 Test Steps:
 Enter the user ID, product ID, and quantity of the product.

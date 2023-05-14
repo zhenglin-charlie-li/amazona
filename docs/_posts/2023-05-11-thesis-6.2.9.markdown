@@ -5,7 +5,8 @@ date: 2023-07-01 10:49:33 +0800
 categories: Notes
 ---
 
-6.2.9.Payment Gateway Service Testing
+### 6.2.9.Payment Gateway Service Testing
+
 (1) Test case: Successful creation of payment request
 Test steps:
 Enter the correct user ID, order ID, payment amount, payment method, payer account information, and payee account information;

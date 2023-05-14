@@ -1,9 +1,10 @@
 ---
 layout: post
-title: '1.1.Introduction'
+title: '6.5.Summary of this Chapter'
 date: 2023-07-21 10:49:33 +0800
 categories: Notes
 ---
 
-6.5.Summary of this Chapter
+## 6.5.Summary of this Chapter
+
 This chapter mainly introduced the testing of the microservices e-commerce system. Firstly, it discussed the setup of the testing environment, including the configuration of hardware and software environments. Secondly, it designed corresponding test programs and test data for different microservices in the system, including tests for user registration service, user login service, user information service, product catalog service, product search service, product details service, shopping cart service, order service, payment gateway service, payment callback service, logistics query service, logistics update service, review query service, and review submission service. Then, it provided detailed records of the testing process and results for each microservice. Finally, it analyzed the test results and provided relevant suggestions. The testing work in this chapter effectively verifies the reliability and stability of the microservices e-commerce system, providing important assurance for its formal deployment.

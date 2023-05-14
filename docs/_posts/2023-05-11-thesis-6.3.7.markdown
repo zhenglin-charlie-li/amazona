@@ -1,11 +1,12 @@
 ---
 layout: post
-title: '1.1.Introduction'
+title: '6.3.7.Shopping Cart Service Test'
 date: 2023-07-13 10:49:33 +0800
 categories: Notes
 ---
 
-6.3.7.Shopping Cart Service Test
+### 6.3.7.Shopping Cart Service Test
+
 (1) Test Case: Successfully adding a product to the shopping cart
 Expected Result: Successfully add the product to the shopping cart
 Actual Result: Successfully add the product to the shopping cart

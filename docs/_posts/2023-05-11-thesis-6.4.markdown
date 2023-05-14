@@ -1,11 +1,12 @@
 ---
 layout: post
-title: '1.1.Introduction'
+title: '6.4.Test Result Analysis'
 date: 2023-07-20 10:49:33 +0800
 categories: Notes
 ---
 
-6.4.Test Result Analysis
+## 6.4.Test Result Analysis
+
 This test document comprehensively tests each microservice of the microservice e-commerce system. The test results indicate that the system can successfully perform all functions as expected. The following is an analysis of the test results.
 (1) User Registration Service Testing
 The test results of this service indicate that the user registration functionality is running smoothly, and all test cases produce the expected results. The advantages are that users can successfully register, cannot register with an existing username, and are correctly rejected when entering illegal characters. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.

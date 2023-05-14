@@ -5,8 +5,10 @@ date: 2023-07-07 10:49:33 +0800
 categories: Notes
 ---
 
-6.3.Test Execution and Test Reporting
-6.3.1.User Registration Service Test
+## 6.3.Test Execution and Test Reporting
+
+### 6.3.1.User Registration Service Test
+
 (1) Test case: Successful registration scenario
 Expected result: Successfully registered and returned User ID
 Actual result: Successfully registered and returned User ID

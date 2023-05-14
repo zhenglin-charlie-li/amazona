@@ -5,7 +5,8 @@ date: 2023-07-02 10:49:33 +0800
 categories: Notes
 ---
 
-6.2.10.Payment Callback Service Testing
+### 6.2.10.Payment Callback Service Testing
+
 (1) Test case: Successful update of order status
 Test steps:
 Simulate a payment callback notification from a third-party payment provider, including the correct order ID, transaction ID, payment amount, payment status, and payment time;

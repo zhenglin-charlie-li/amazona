@@ -1,11 +1,12 @@
 ---
 layout: post
-title: '1.1.Introduction'
+title: '6.3.5.Product Search Service Test'
 date: 2023-07-11 10:49:33 +0800
 categories: Notes
 ---
 
-6.3.5.Product Search Service Test
+### 6.3.5.Product Search Service Test
+
 (1) Test Case: Successfully searching for products
 Expected Result: Successfully search and return a list of matching products
 Actual Result: Successfully search and return a list of matching products

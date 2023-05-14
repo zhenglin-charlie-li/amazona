@@ -5,7 +5,8 @@ date: 2023-07-04 10:49:33 +0800
 categories: Notes
 ---
 
-6.2.12.Logistics Update Service Testing
+### 6.2.12.Logistics Update Service Testing
+
 (1) Test case: Successful update of logistics information
 Test steps:
 Enter the order number, logistics company, waybill number, and shipping status;

@@ -5,7 +5,8 @@ date: 2023-07-09 10:49:33 +0800
 categories: Notes
 ---
 
-6.3.3.User Information Service Test
+### 6.3.3.User Information Service Test
+
 (1) Test case: Successfully retrieving user information scenario
 Expected result: Successfully retrieved user information
 Actual result: Successfully retrieved user information

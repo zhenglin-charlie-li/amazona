@@ -1,11 +1,12 @@
 ---
 layout: post
-title: '1.1.Introduction'
+title: 'References'
 date: 2023-07-24 10:49:33 +0800
 categories: Notes
 ---
 
-References
+# References
+
 [1] Zhang, J., Liu, H., Han, L., et al. (2012). A Review of Research on E-commerce Service Quality. Modern Management Science, 5, 92-94.
 [2] Zou, J. (2014). Personalized E-commerce Product Recommendation Method Based on Big Data. Electronic Production, 10X, 97-97, 96.
 [3] Vasan, S. (2017). Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node.

@@ -1,11 +1,12 @@
 ---
 layout: post
-title: '1.1.Introduction'
+title: '6.3.12.Logistics Update Service Testing'
 date: 2023-07-17 10:49:33 +0800
 categories: Notes
 ---
 
-6.3.12.Logistics Update Service Testing
+### 6.3.12.Logistics Update Service Testing
+
 (1) Test Case: Successful update of logistics information
 Expected Result: Successful update and return of update result
 Actual Result: Successful update and return of update result

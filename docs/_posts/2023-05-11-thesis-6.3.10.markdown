@@ -1,11 +1,12 @@
 ---
 layout: post
-title: '1.1.Introduction'
+title: '6.3.10.Payment Callback Service Test'
 date: 2023-07-15 10:49:33 +0800
 categories: Notes
 ---
 
-6.3.10.Payment Callback Service Test
+### 6.3.10.Payment Callback Service Test
+
 (1) Test Case: Successfully update the order status
 Expected Result: Successfully update the order status and return the successful update result
 Actual Result: Successfully update the order status and return the successful update result

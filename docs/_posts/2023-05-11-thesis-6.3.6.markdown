@@ -1,11 +1,12 @@
 ---
 layout: post
-title: '1.1.Introduction'
+title: '6.3.6.Product Details Service Test'
 date: 2023-07-12 10:49:33 +0800
 categories: Notes
 ---
 
-6.3.6.Product Details Service Test
+### 6.3.6.Product Details Service Test
+
 (1) Test Case: Retrieving product details successfully
 Expected Result: Successfully retrieve product details and return detailed information about the product
 Actual Result: Successfully retrieve product details and return detailed information about the product

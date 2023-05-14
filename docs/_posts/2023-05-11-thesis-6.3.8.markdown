@@ -1,11 +1,12 @@
 ---
 layout: post
-title: '1.1.Introduction'
+title: '6.3.8.Order Service Test'
 date: 2023-07-13 10:49:33 +0800
 categories: Notes
 ---
 
-6.3.8.Order Service Test
+### 6.3.8.Order Service Test
+
 (1) Test Case: Successfully create an order
 Expected Result: The order is successfully created, and the inventory quantity is updated correctly
 Actual Result: The order is successfully created, and the inventory quantity is updated correctly

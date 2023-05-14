@@ -5,7 +5,8 @@ date: 2023-06-28 10:49:33 +0800
 categories: Notes
 ---
 
-6.2.6.Product Detail Service Testing
+### 6.2.6.Product Detail Service Testing
+
 (1) Test Case: Successful retrieval of product details
 Test Steps:
 Enter a product ID.

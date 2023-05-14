@@ -1,11 +1,12 @@
 ---
 layout: post
-title: '1.1.Introduction'
+title: '6.3.13.Review Query Service Testing'
 date: 2023-07-18 10:49:33 +0800
 categories: Notes
 ---
 
-6.3.13.Review Query Service Testing
+### 6.3.13.Review Query Service Testing
+
 (1) Test Case: Successful retrieval of product reviews
 Expected Result: Successfully retrieve product review information
 Actual Result: Successfully retrieve product review information

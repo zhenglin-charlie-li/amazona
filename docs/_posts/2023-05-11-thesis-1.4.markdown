@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '1.4.Organization and Structure of the Thesis'
-date: 2023-05-14 10:49:33 +0800
+date: 2023-01-12 10:49:33 +0802
 categories: Notes
 ---
 

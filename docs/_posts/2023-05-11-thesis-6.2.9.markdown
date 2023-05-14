@@ -1,37 +1,65 @@
 ---
 layout: post
 title: '6.2.9.Payment Gateway Service Testing'
-date: 2023-07-01 10:49:33 +0800
+date: 2023-03-01 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.2.9.Payment Gateway Service Testing
 
+
 (1) Test case: Successful creation of payment request
+
 Test steps:
-Enter the correct user ID, order ID, payment amount, payment method, payer account information, and payee account information;
-Call the create payment request API;
-Verify if the return result is successful;
-Verify if the returned payment request ID has the correct format.
+
+- Enter the correct user ID, order ID, payment amount, payment method, payer account information, and payee account information;
+
+- Call the create payment request API;
+
+- Verify if the return result is successful;
+
+- Verify if the returned payment request ID has the correct format.
+
 Expected result: The payment request is successfully created, and a payment request ID with the correct format is returned.
+
 (2) Test case: Failure in creating payment request
+
 Test steps:
-Enter incorrect user ID, order ID, payment amount, payment method, payer account information, and payee account information;
-Call the create payment request API;
-Verify if the return result is a failure;
-Verify if the returned error message has the correct format.
+
+- Enter incorrect user ID, order ID, payment amount, payment method, payer account information, and payee account information;
+
+- Call the create payment request API;
+
+- Verify if the return result is a failure;
+
+- Verify if the returned error message has the correct format.
+
 Expected result: The creation of the payment request fails, and an error message with the correct format is returned.
+
 (3) Test case: Successful inquiry of payment result
+
 Test steps:
-Create a payment request;
-Enter the correct payment request ID;
-Call the inquiry payment result API;
-Verify if the return result is successful.
+
+- Create a payment request;
+
+- Enter the correct payment request ID;
+
+- Call the inquiry payment result API;
+
+- Verify if the return result is successful.
+
 Expected result: The inquiry of the payment result is successful, and the correct payment result is returned.
+
 (4) Test case: Failure in inquiry of payment result
+
 Test steps:
-Enter an incorrect payment request ID;
-Call the inquiry payment result API;
-Verify if the return result is a failure;
-Verify if the returned error message has the correct format.
+
+- Enter an incorrect payment request ID;
+
+- Call the inquiry payment result API;
+
+- Verify if the return result is a failure;
+
+- Verify if the returned error message has the correct format.
+
 Expected result: The inquiry of the payment result fails, and an error message with the correct format is returned.

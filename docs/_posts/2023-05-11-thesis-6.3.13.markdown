@@ -1,37 +1,65 @@
 ---
 layout: post
 title: '6.3.13.Review Query Service Testing'
-date: 2023-07-18 10:49:33 +0800
+date: 2023-03-18 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.3.13.Review Query Service Testing
 
+
 (1) Test Case: Successful retrieval of product reviews
+
 Expected Result: Successfully retrieve product review information
+
 Actual Result: Successfully retrieve product review information
+
 Pass/Fail: Pass
+
 (2) Test Case: Failed retrieval of product reviews (product ID does not exist)
+
 Expected Result: Failed retrieval of product reviews and return of error message
+
 Actual Result: Failed retrieval of product reviews and return of error message
+
 Pass/Fail: Pass
+
 (3) Test Case: Successful retrieval of user reviews
+
 Expected Result: Successfully retrieve user review information
+
 Actual Result: Successfully retrieve user review information
+
 Pass/Fail: Pass
+
 (4) Test Case: Failed retrieval of user reviews (user ID does not exist)
+
 Expected Result: Failed retrieval of user reviews and return of error message
+
 Actual Result: Failed retrieval of user reviews and return of error message
+
 Pass/Fail: Pass
+
 (5) Test Case: Successful cache query
+
 Expected Result: Successfully retrieve product review information from cache
+
 Actual Result: Successfully retrieve product review information from cache
+
 Pass/Fail: Pass
+
 (6) Test Case: Failed cache query (product ID does not exist)
+
 Expected Result: Failed retrieval of product review from cache and return of error message
+
 Actual Result: Failed retrieval of product review from cache and return of error message
+
 Pass/Fail: Pass
+
 (7) Test Case: Logging functionality test
+
 Expected Result: The service is able to log errors and exceptions, and perform proper log analysis and troubleshooting
+
 Actual Result: The service is able to log errors and exceptions, and perform proper log analysis and troubleshooting
+
 Pass/Fail: Pass

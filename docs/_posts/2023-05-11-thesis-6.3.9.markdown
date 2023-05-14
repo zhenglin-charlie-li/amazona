@@ -1,25 +1,41 @@
 ---
 layout: post
 title: '6.3.9.Payment Gateway Service Test'
-date: 2023-07-14 10:49:33 +0800
+date: 2023-03-14 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.3.9.Payment Gateway Service Test
 
+
 (1) Test Case: Successfully create a payment request
+
 Expected Result: Successfully create a payment request and return the correct format of payment request ID
+
 Actual Result: Successfully create a payment request and return the correct format of payment request ID
+
 Pass/Fail: Pass
+
 (2) Test Case: Failing to create a payment request
+
 Expected Result: Failed to create a payment request and return the correct format of error message
+
 Actual Result: Failed to create a payment request and return the correct format of error message
+
 Pass/Fail: Pass
+
 (3) Test Case: Successfully retrieve payment result
+
 Expected Result: Successfully retrieve payment result and return the correct payment result
+
 Actual Result: Successfully retrieve payment result and return the correct payment result
+
 Pass/Fail: Pass
+
 (4) Test Case: Failing to retrieve payment result
+
 Expected Result: Failed to retrieve payment result and return the correct format of error message
+
 Actual Result: Failed to retrieve payment result and return the correct format of error message
+
 Pass/Fail: Pass

@@ -1,21 +1,33 @@
 ---
 layout: post
 title: '6.3.4.Product Catalog Service Test'
-date: 2023-07-10 10:49:33 +0800
+date: 2023-03-10 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.3.4.Product Catalog Service Test
 
+
 (1) Test Case: Retrieving existing product information
+
 Expected Result: Successfully retrieve product information and return correct product details
+
 Actual Result: Successfully retrieve product information and return correct product details
+
 Pass/Fail: Pass
+
 (2) Test Case: Retrieving non-existent product information
+
 Expected Result: Failed to retrieve product information and return error message
+
 Actual Result: Failed to retrieve product information and return error message
+
 Pass/Fail: Pass
+
 (3) Test Case: Inputting invalid product ID
+
 Expected Result: Failed to retrieve product information and return error message
+
 Actual Result: Failed to retrieve product information and return error message
+
 Pass/Fail: Pass

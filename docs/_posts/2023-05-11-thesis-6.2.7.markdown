@@ -1,63 +1,118 @@
 ---
 layout: post
 title: '6.2.7.Shopping Cart Service Testing'
-date: 2023-06-29 10:49:33 +0800
+date: 2023-02-29 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.2.7.Shopping Cart Service Testing
 
+
 (1) Test Case: Successful addition of a product to the shopping cart
+
 Test Steps:
-Enter the user ID, product ID, and quantity of the product.
-Click the add button.
-Verify if the returned result is successful.
+
+- Enter the user ID, product ID, and quantity of the product.
+
+- Click the add button.
+
+- Verify if the returned result is successful.
+
 Expected Result: Successfully add the product to the shopping cart.
+
 (2) Test Case: Adding a duplicate product to the shopping cart
+
 Test Steps:
-Enter the user ID, existing product ID, and quantity of the product.
-Click the add button.
-Verify if the returned result is successful.
+
+- Enter the user ID, existing product ID, and quantity of the product.
+
+- Click the add button.
+
+- Verify if the returned result is successful.
+
 Expected Result: Successfully add the duplicate product to the shopping cart.
+
 (3) Test Case: Failure to add a product to the shopping cart
+
 Test Steps:
-Enter the user ID, invalid product ID, and quantity of the product.
-Click the add button.
-Verify if the returned result is a failure and check the error message.
+
+- Enter the user ID, invalid product ID, and quantity of the product.
+
+- Click the add button.
+
+- Verify if the returned result is a failure and check the error message.
+
 Expected Result: Failure to add the product to the shopping cart and return an error message.
+
 (4) Test Case: Successful deletion of a product from the shopping cart
+
 Test Steps:
-Enter the user ID and the product ID to be deleted.
-Click the delete button.
-Verify if the returned result is successful.
+
+- Enter the user ID and the product ID to be deleted.
+
+- Click the delete button.
+
+- Verify if the returned result is successful.
+
 Expected Result: Successfully delete the product from the shopping cart.
+
 (5) Test Case: Deleting a non-existent product from the shopping cart
+
 Test Steps:
-Enter the user ID and a non-existent product ID.
-Click the delete button.
-Verify if the returned result is successful.
+
+- Enter the user ID and a non-existent product ID.
+
+- Click the delete button.
+
+- Verify if the returned result is successful.
+
 Expected Result: Deleting a non-existent product will not affect the shopping cart.
+
 (6) Test Case: Failure to delete a product from the shopping cart
+
 Test Steps:
-Enter the user ID and an invalid product ID.
-Click the delete button.
-Verify if the returned result is a failure and check the error message.
+
+- Enter the user ID and an invalid product ID.
+
+- Click the delete button.
+
+- Verify if the returned result is a failure and check the error message.
+
 Expected Result: Failure to delete the product from the shopping cart and return an error message.
+
 (7) Test Case: Successful update of a product in the shopping cart
+
 Test Steps:
-Enter the user ID, product ID, and the new quantity of the product.
-Click the update button.
-Verify if the returned result is successful.
+
+- Enter the user ID, product ID, and the new quantity of the product.
+
+- Click the update button.
+
+- Verify if the returned result is successful.
+
 Expected Result: Successfully update the product in the shopping cart.
+
 (8) Test Case: Updating a non-existent product in the shopping cart
+
 Test Steps:
-Enter the user ID, a non-existent product ID, and the new quantity of the product.
-Click the update button.
-Verify if the returned result is a failure and check the error message.
+
+- Enter the user ID, a non-existent product ID, and the new quantity of the product.
+
+- Click the update button.
+
+- Verify if the returned result is a failure and check the error message.
+
 Expected Result: Updating a non-existent product fails and returns an error message.
+
 (9) Test Case: Failure to update a product in the shopping cart
+
 Test Steps:
-Enter the user ID, an invalid product ID, and the new quantity of the product.
-Click the update button.
-Verify if the returned result is a failure and check the error message.
+
+- Enter the user ID, an invalid product ID, and the new quantity of the product.
+
+- Click the update button.
+
+- Verify if the returned result is a failure and check the error message.
+
 Expected Result: Failure to update the product in the shopping cart and return an error message.
+

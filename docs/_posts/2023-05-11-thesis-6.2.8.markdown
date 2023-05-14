@@ -1,48 +1,87 @@
 ---
 layout: post
 title: '6.2.8.Order Service Testing'
-date: 2023-06-30 10:49:33 +0800
+date: 2023-02-30 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.2.8.Order Service Testing
 
+
 (1) Test case: Successful order creation
+
 Test steps:
-Enter correct user ID, product list, shipping address, and payment method;
-Click on the create order button;
-Verify if the return result is successful and retrieve the order ID;
-Verify if the order is correctly created and if the inventory quantity is updated;
+
+- Enter correct user ID, product list, shipping address, and payment method;
+
+- Click on the create order button;
+
+- Verify if the return result is successful and retrieve the order ID;
+
+- Verify if the order is correctly created and if the inventory quantity is updated;
+
 Expected result: The order is successfully created, and the inventory quantity is correctly updated.
+
 (2) Test case: Order creation with insufficient stock
+
 Test steps:
-Enter correct user ID, product list, shipping address, and payment method, where the quantity of one of the products exceeds the stock quantity;
-Click on the create order button;
-Verify if the return result is a failure and check the error message;
+
+- Enter correct user ID, product list, shipping address, and payment method, where the quantity of one of the products exceeds the stock quantity;
+
+- Click on the create order button;
+
+- Verify if the return result is a failure and check the error message;
+
 Expected result: The order creation fails, and an error message indicates insufficient stock.
+
 (3) Test case: Successful order cancellation
+
 Test steps:
-Enter the correct order ID;
-Click on the cancel order button;
-Verify if the return result is successful;
-Verify if the order status is correctly updated;
+
+- Enter the correct order ID;
+
+- Click on the cancel order button;
+
+- Verify if the return result is successful;
+
+- Verify if the order status is correctly updated;
+
 Expected result: The order is successfully canceled, and the order status is correctly updated.
+
 (4) Test case: Cancellation of a non-existent order
+
 Test steps:
-Enter a non-existent order ID;
-Click on the cancel order button;
-Verify if the return result is a failure and check the error message;
+
+- Enter a non-existent order ID;
+
+- Click on the cancel order button;
+
+- Verify if the return result is a failure and check the error message;
+
 Expected result: The order cancellation fails, and an error message indicates that the order does not exist.
+
 (5) Test case: Successful order inquiry
+
 Test steps:
-Enter the correct order ID;
-Click on the order inquiry button;
-Verify if the return result is successful and retrieve the order information;
-Verify if the order information is correct;
+
+- Enter the correct order ID;
+
+- Click on the order inquiry button;
+
+- Verify if the return result is successful and retrieve the order information;
+
+- Verify if the order information is correct;
+
 Expected result: The order information is successfully queried, and the correct order information is returned.
+
 (6) Test case: Inquiry of a non-existent order
+
 Test steps:
-Enter a non-existent order ID;
-Click on the order inquiry button;
-Verify if the return result is a failure and check the error message;
+
+- Enter a non-existent order ID;
+
+- Click on the order inquiry button;
+
+- Verify if the return result is a failure and check the error message;
+
 Expected result: The order inquiry fails, and an error message indicates that the order does not exist.

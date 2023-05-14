@@ -1,35 +1,62 @@
 ---
 layout: post
 title: '6.2.10.Payment Callback Service Testing'
-date: 2023-07-02 10:49:33 +0800
+date: 2023-03-02 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.2.10.Payment Callback Service Testing
 
+
 (1) Test case: Successful update of order status
+
 Test steps:
-Simulate a payment callback notification from a third-party payment provider, including the correct order ID, transaction ID, payment amount, payment status, and payment time;
-Confirm that the order service has correctly updated the order status;
-Verify if the return result is successful.
+
+- Simulate a payment callback notification from a third-party payment provider, including the correct order ID, transaction ID, payment amount, payment status, and 
+payment - time;
+
+- Confirm that the order service has correctly updated the order status;
+
+- Verify if the return result is successful.
+
 Expected result: The order status is successfully updated, and a successful update result is returned.
+
 (2) Test case: Transaction ID is empty
+
 Test steps:
-Simulate a payment callback notification from a third-party payment provider with an empty transaction ID;
-Verify if the return result is a failure, and check the error message.
+
+- Simulate a payment callback notification from a third-party payment provider with an empty transaction ID;
+
+- Verify if the return result is a failure, and check the error message.
+
 Expected result: The order status update fails, and an error message is returned.
+
 (3) Test case: Order ID does not exist
+
 Test steps:
-Simulate a payment callback notification from a third-party payment provider with an incorrect order ID;
-Verify if the return result is a failure, and check the error message.
+
+- Simulate a payment callback notification from a third-party payment provider with an incorrect order ID;
+
+- Verify if the return result is a failure, and check the error message.
+
 Expected result: The order status update fails, and an error message is returned.
+
 (4) Test case: Payment status is failure
+
 Test steps:
-Simulate a payment callback notification from a third-party payment provider with a payment status of failure;
-Verify if the return result is successful.
+
+- Simulate a payment callback notification from a third-party payment provider with a payment status of failure;
+
+- Verify if the return result is successful.
+
 Expected result: The order status is successfully updated, and a successful update result is returned.
+
 (5) Test case: Payment amount is negative
+
 Test steps:
-Simulate a payment callback notification from a third-party payment provider with a negative payment amount;
-Verify if the return result is a failure, and check the error message.
+
+- Simulate a payment callback notification from a third-party payment provider with a negative payment amount;
+
+- Verify if the return result is a failure, and check the error message.
+
 Expected result: The order status update fails, and an error message is returned.

@@ -1,21 +1,33 @@
 ---
 layout: post
 title: '6.3.12.Logistics Update Service Testing'
-date: 2023-07-17 10:49:33 +0800
+date: 2023-03-17 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.3.12.Logistics Update Service Testing
 
+
 (1) Test Case: Successful update of logistics information
+
 Expected Result: Successful update and return of update result
+
 Actual Result: Successful update and return of update result
+
 Pass/Fail: Pass
+
 (2) Test Case: Failed update of logistics information
+
 Expected Result: Update fails and returns an error message
+
 Actual Result: Update fails and returns an error message
+
 Pass/Fail: Pass
+
 (3) Test Case: Inputting illegal characters
+
 Expected Result: Update fails and returns an error message
+
 Actual Result: Update fails and returns an error message
+
 Pass/Fail: Pass

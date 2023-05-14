@@ -1,33 +1,57 @@
 ---
 layout: post
 title: '6.3.6.Product Details Service Test'
-date: 2023-07-12 10:49:33 +0800
+date: 2023-03-12 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.3.6.Product Details Service Test
 
+
 (1) Test Case: Retrieving product details successfully
+
 Expected Result: Successfully retrieve product details and return detailed information about the product
+
 Actual Result: Successfully retrieve product details and return detailed information about the product
+
 Pass/Fail: Pass
+
 (2) Test Case: Failing to retrieve product details
+
 Expected Result: Failed to retrieve product details and return error message
+
 Actual Result: Failed to retrieve product details and return error message
+
 Pass/Fail: Pass
+
 (3) Test Case: Retrieving product reviews successfully
+
 Expected Result: Successfully retrieve product reviews and return the list of product reviews
+
 Actual Result: Successfully retrieve product reviews and return the list of product reviews
+
 Pass/Fail: Pass
+
 (4) Test Case: Failing to retrieve product reviews
+
 Expected Result: Failed to retrieve product reviews and return error message
+
 Actual Result: Failed to retrieve product reviews and return error message
+
 Pass/Fail: Pass
+
 (5) Test Case: Publishing product review successfully
+
 Expected Result: Successfully publish product review and return the review ID
+
 Actual Result: Successfully publish product review and return the review ID
+
 Pass/Fail: Pass
+
 (6) Test Case: Failing to publish product review
+
 Expected Result: Failed to publish product review and return error message
+
 Actual Result: Failed to publish product review and return error message
+
 Pass/Fail: Pass

@@ -1,39 +1,98 @@
 ---
 layout: post
 title: '6.4.Test Result Analysis'
-date: 2023-07-20 10:49:33 +0800
+date: 2023-03-20 10:49:33 +0800
 categories: Notes
 ---
 
 ## 6.4.Test Result Analysis
 
-This test document comprehensively tests each microservice of the microservice e-commerce system. The test results indicate that the system can successfully perform all functions as expected. The following is an analysis of the test results.
+
+This test document comprehensively tests each microservice of the microservice e-commerce system. The test results indicate that the system can successfully perform all 
+functions as expected. The following is an analysis of the test results.
+
 (1) User Registration Service Testing
-The test results of this service indicate that the user registration functionality is running smoothly, and all test cases produce the expected results. The advantages are that users can successfully register, cannot register with an existing username, and are correctly rejected when entering illegal characters. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.
+
+The test results of this service indicate that the user registration functionality is running smoothly, and all test cases produce the expected results. The advantages 
+are that users can successfully register, cannot register with an existing username, and are correctly rejected when entering illegal characters. The disadvantage is 
+that the number of test cases is limited, and further testing is required to ensure completeness.
+
 (2) User Login Service Testing
-The test results of this service indicate that the user login functionality is running smoothly, and all test cases produce the expected results. The advantages are that users can successfully log in and obtain access tokens and user IDs, and are correctly rejected when entering incorrect usernames or passwords. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.
+
+The test results of this service indicate that the user login functionality is running smoothly, and all test cases produce the expected results. The advantages are that 
+users can successfully log in and obtain access tokens and user IDs, and are correctly rejected when entering incorrect usernames or passwords. The disadvantage is that 
+the number of test cases is limited, and further testing is required to ensure completeness.
+
 (3) User Information Service Testing
-The test results of this service indicate that the user information service is running smoothly, and all test cases produce the expected results. The advantages are that users can successfully retrieve user information and receive appropriate error messages when encountering database errors or when requesting invalid user IDs or non-existent user information. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.
+
+The test results of this service indicate that the user information service is running smoothly, and all test cases produce the expected results. The advantages are that 
+users can successfully retrieve user information and receive appropriate error messages when encountering database errors or when requesting invalid user IDs or 
+non-existent user information. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.
+
 (4) Product Catalog Service Testing
-The test results of this service indicate that the product catalog service is running smoothly, and all test cases produce the expected results. The advantages are that users can successfully retrieve product information and receive appropriate error messages when requesting non-existent product information or entering illegal product IDs. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.
+
+The test results of this service indicate that the product catalog service is running smoothly, and all test cases produce the expected results. The advantages are that 
+users can successfully retrieve product information and receive appropriate error messages when requesting non-existent product information or entering illegal product 
+IDs. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.
+
 (5) User Information Service Testing
-The test results of this service indicate that the user information service is running smoothly, and all test cases produce the expected results. The advantages are that users can successfully retrieve user information and receive appropriate error messages when encountering database errors or when requesting invalid user IDs or non-existent user information. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.
+
+The test results of this service indicate that the user information service is running smoothly, and all test cases produce the expected results. The advantages are that 
+users can successfully retrieve user information and receive appropriate error messages when encountering database errors or when requesting invalid user IDs or 
+non-existent user information. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.
+
 (6) Product Catalog Service Testing
-The test results of this service indicate that the product catalog service is running smoothly, and all test cases produce the expected results. The advantages are that users can successfully retrieve product information and receive appropriate error messages when requesting non-existent product information or entering illegal product IDs. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.
+
+The test results of this service indicate that the product catalog service is running smoothly, and all test cases produce the expected results. The advantages are that 
+users can successfully retrieve product information and receive appropriate error messages when requesting non-existent product information or entering illegal product 
+IDs. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.
+
 (7) Product Search Service Testing
-The test results of this service indicate that the product search service is running smoothly, and all test cases produce the expected results. The advantages are that users can successfully search for products and receive appropriate error messages when the search term or product search result is empty, as well as when the service encounters errors. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.
+
+The test results of this service indicate that the product search service is running smoothly, and all test cases produce the expected results. The advantages are that 
+users can successfully search for products and receive appropriate error messages when the search term or product search result is empty, as well as when the service 
+encounters errors. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.
+
 (8) Product Details Service Testing
-The test results of this service indicate that the product details service is running smoothly, and all test cases produce the expected results. The advantages are that users can successfully retrieve product details and receive appropriate error messages when requesting non-existent product details, as well as successfully retrieving product reviews. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.
+
+The test results of this service indicate that the product details service is running smoothly, and all test cases produce the expected results. The advantages are that 
+users can successfully retrieve product details and receive appropriate error messages when requesting non-existent product details, as well as successfully retrieving 
+product reviews. The disadvantage is that the number of test cases is limited, and further testing is required to ensure completeness.
+
 (1) Analysis of Shopping Cart Service Test Results:
-The service has passed all test cases and meets the expected results. The advantage is that adding, deleting, and updating products in the shopping cart can be completed successfully, and it has strong error handling capabilities. The disadvantage is that the test case coverage is not comprehensive enough, and further improvement of test cases is needed to ensure better system stability.
+
+The service has passed all test cases and meets the expected results. The advantage is that adding, deleting, and updating products in the shopping cart can be completed 
+successfully, and it has strong error handling capabilities. The disadvantage is that the test case coverage is not comprehensive enough, and further improvement of test 
+cases is needed to ensure better system stability.
+
 (2) Analysis of Order Service Test Results:
-The service has passed all test cases and meets the expected results. The advantage is that creating, canceling, and querying orders can be completed successfully, and it has strong error handling capabilities. The disadvantage is that the test case coverage is not comprehensive enough, and further improvement of test cases is needed to ensure better system stability.
+
+The service has passed all test cases and meets the expected results. The advantage is that creating, canceling, and querying orders can be completed successfully, and 
+it has strong error handling capabilities. The disadvantage is that the test case coverage is not comprehensive enough, and further improvement of test cases is needed 
+to ensure better system stability.
+
 (3) Analysis of Payment Gateway Service Test Results:
-The service has passed all test cases and meets the expected results. The advantage is that it can create payment requests successfully, and querying payment results can be completed normally. The disadvantage is that the test case coverage is not comprehensive enough, and further improvement of test cases is needed to ensure better system stability.
+
+The service has passed all test cases and meets the expected results. The advantage is that it can create payment requests successfully, and querying payment results can 
+be completed normally. The disadvantage is that the test case coverage is not comprehensive enough, and further improvement of test cases is needed to ensure better 
+system stability.
+
 (4) Analysis of Payment Callback Service Test Results:
-The test results of this service indicate that the payment callback functionality is functioning properly, and all test cases produce the expected results. The advantage is that the test cases cover common scenarios, including successfully updating order status, empty transaction ID, non-existent order ID, payment status as failed, and negative payment amount. The disadvantage is that the number of test cases is limited, and further testing is needed to ensure its completeness.
+
+The test results of this service indicate that the payment callback functionality is functioning properly, and all test cases produce the expected results. The advantage 
+is that the test cases cover common scenarios, including successfully updating order status, empty transaction ID, non-existent order ID, payment status as failed, and 
+negative payment amount. The disadvantage is that the number of test cases is limited, and further testing is needed to ensure its completeness.
+
 (5) Analysis of Review Query Service Test Results:
-The test results of this service indicate that the review query functionality is functioning properly, and all test cases produce the expected results. The advantage is that the test cases cover common scenarios. The disadvantage is that the number of test cases is limited, and further testing is needed to ensure its completeness.
+
+The test results of this service indicate that the review query functionality is functioning properly, and all test cases produce the expected results. The advantage is 
+that the test cases cover common scenarios. The disadvantage is that the number of test cases is limited, and further testing is needed to ensure its completeness.
+
 (6) Analysis of Review Submission Service Test Results:
-The test results of this service indicate that the review submission functionality is functioning properly, and all test cases produce the expected results. The advantage is that the test cases cover common scenarios. The disadvantage is that the number of test cases is limited, and further testing is needed to ensure its completeness.
-In conclusion, the test results indicate that all functions of this microservices e-commerce system can operate normally. However, the number of test cases is limited, and further testing is required to ensure completeness. No obvious errors or defects were found during the testing.
+
+The test results of this service indicate that the review submission functionality is functioning properly, and all test cases produce the expected results. The 
+advantage is that the test cases cover common scenarios. The disadvantage is that the number of test cases is limited, and further testing is needed to ensure its 
+completeness.
+
+In conclusion, the test results indicate that all functions of this microservices e-commerce system can operate normally. However, the number of test cases is limited, 
+and further testing is required to ensure completeness. No obvious errors or defects were found during the testing.

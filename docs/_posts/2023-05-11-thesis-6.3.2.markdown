@@ -1,21 +1,33 @@
 ---
 layout: post
 title: '6.3.2.User Login Service Test'
-date: 2023-07-08 10:49:33 +0800
+date: 2023-03-08 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.3.2.User Login Service Test
 
+
 (1) Test case: Normal login scenario
+
 Expected result: Successfully logged in and returned access token and User ID
+
 Actual result: Successfully logged in and returned access token and User ID
+
 Test pass/fail: Passed
+
 (2) Test case: Incorrect username or password scenario
+
 Expected result: Login fails and returns an error message
+
 Actual result: Login fails and returns an error message
+
 Test pass/fail: Passed
+
 (3) Test case: Missing username or password scenario
+
 Expected result: Login fails and returns an error message
+
 Actual result: Login fails and returns an error message
+
 Test pass/fail: Passed

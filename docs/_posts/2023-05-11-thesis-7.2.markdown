@@ -1,13 +1,25 @@
 ---
 layout: post
 title: '7.2.Reflections'
-date: 2023-07-23 10:49:33 +0800
+date: 2023-03-23 10:49:33 +0800
 categories: Notes
 ---
 
 ## 7.2.Reflections
 
-During the process of completing this graduation project (thesis), I deeply realized the importance of research and practice. Through the design and implementation of the microservices e-commerce system, I have learned a lot about software engineering and system architecture and have also gained practical experience in using various technologies and tools.
-Firstly, I have learned how to conduct system design and architecture. When designing the microservices e-commerce system, I needed to consider factors such as scalability, maintainability, and reliability. By dividing and designing different modules, I ultimately achieved an efficient, reliable, and easy-to-maintain system.
-Secondly, this graduation project (thesis) has been an important experience for me, allowing me to recognize my shortcomings and motivating me to continually improve my abilities. Through this process, I have not only acquired professional knowledge and skills but, more importantly, I have developed my learning ability, thinking ability, and problem-solving skills, which are all beneficial for my future career development.
-In conclusion, this graduation project (thesis) is a significant part of my four years in university. It has not only enabled me to learn a great deal of knowledge and skills but has also made me aware of my potential and areas for improvement. In my future work, I will continuously strive to enhance my abilities and lay a solid foundation for my professional career.
+
+During the process of completing this graduation project (thesis), I deeply realized the importance of research and practice. Through the design and implementation of 
+the microservices e-commerce system, I have learned a lot about software engineering and system architecture and have also gained practical experience in using various 
+technologies and tools.
+
+Firstly, I have learned how to conduct system design and architecture. When designing the microservices e-commerce system, I needed to consider factors such as 
+scalability, maintainability, and reliability. By dividing and designing different modules, I ultimately achieved an efficient, reliable, and easy-to-maintain system.
+
+Secondly, this graduation project (thesis) has been an important experience for me, allowing me to recognize my shortcomings and motivating me to continually improve my 
+abilities. Through this process, I have not only acquired professional knowledge and skills but, more importantly, I have developed my learning ability, thinking 
+ability, and problem-solving skills, which are all beneficial for my future career development.
+
+In conclusion, this graduation project (thesis) is a significant part of my four years in university. It has not only enabled me to learn a great deal of knowledge and 
+skills but has also made me aware of my potential and areas for improvement. In my future work, I will continuously strive to enhance my abilities and lay a solid 
+foundation for my professional career.
+

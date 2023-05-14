@@ -1,29 +1,49 @@
 ---
 layout: post
 title: '6.3.10.Payment Callback Service Test'
-date: 2023-07-15 10:49:33 +0800
+date: 2023-03-15 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.3.10.Payment Callback Service Test
 
+
 (1) Test Case: Successfully update the order status
+
 Expected Result: Successfully update the order status and return the successful update result
+
 Actual Result: Successfully update the order status and return the successful update result
+
 Pass/Fail: Pass
+
 (2) Test Case: Transaction ID is empty
+
 Expected Result: Order status update fails and returns an error message
+
 Actual Result: Order status update fails and returns an error message
+
 Pass/Fail: Pass
+
 (3) Test Case: Order ID does not exist
+
 Expected Result: Order status update fails and returns an error message
+
 Actual Result: Order status update fails and returns an error message
+
 Pass/Fail: Pass
+
 (4) Test Case: Payment status is failed
+
 Expected Result: Successfully update the order status and return the successful update result
+
 Actual Result: Successfully update the order status and return the successful update result
+
 Pass/Fail: Pass
+
 (5) Test Case: Negative payment amount
+
 Expected Result: Order status update fails and returns an error message
+
 Actual Result: Order status update fails and returns an error message
+
 Pass/Fail: Pass

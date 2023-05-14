@@ -1,27 +1,45 @@
 ---
 layout: post
 title: '6.2.12.Logistics Update Service Testing'
-date: 2023-07-04 10:49:33 +0800
+date: 2023-03-04 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.2.12.Logistics Update Service Testing
 
+
 (1) Test case: Successful update of logistics information
+
 Test steps:
-Enter the order number, logistics company, waybill number, and shipping status;
-Click the update button;
-Verify if the return result is successful.
+
+- Enter the order number, logistics company, waybill number, and shipping status;
+
+- Click the update button;
+
+- Verify if the return result is successful.
+
 Expected result: Successful update and return of the update result.
+
 (2) Test case: Failure in updating logistics information
+
 Test steps:
-Enter a non-existent order number, logistics company, waybill number, and shipping status;
-Click the update button;
-Verify if the return result is a failure and check the error message.
+
+- Enter a non-existent order number, logistics company, waybill number, and shipping status;
+
+- Click the update button;
+
+- Verify if the return result is a failure and check the error message.
+
 Expected result: Update fails and returns an error message.
+
 (3) Test case: Inputting illegal characters
+
 Test steps:
-Enter an order number, logistics company, waybill number, and shipping status that contain illegal characters;
-Click the update button;
-Verify if the return result is a failure and check the error message.
+
+- Enter an order number, logistics company, waybill number, and shipping status that contain illegal characters;
+
+- Click the update button;
+
+- Verify if the return result is a failure and check the error message.
+
 Expected result: Update fails and returns an error message.

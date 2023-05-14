@@ -1,33 +1,57 @@
 ---
 layout: post
 title: '6.3.8.Order Service Test'
-date: 2023-07-13 10:49:33 +0800
+date: 2023-03-13 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.3.8.Order Service Test
 
+
 (1) Test Case: Successfully create an order
+
 Expected Result: The order is successfully created, and the inventory quantity is updated correctly
+
 Actual Result: The order is successfully created, and the inventory quantity is updated correctly
+
 Pass/Fail: Pass
+
 (2) Test Case: Insufficient inventory during order creation
+
 Expected Result: Order creation fails, and an error message is returned indicating insufficient inventory
+
 Actual Result: Order creation fails, and an error message is returned indicating insufficient inventory
+
 Pass/Fail: Pass
+
 (3) Test Case: Successfully cancel an order
+
 Expected Result: The order is successfully canceled, and the order status is updated correctly
+
 Actual Result: The order is successfully canceled, and the order status is updated correctly
+
 Pass/Fail: Pass
+
 (4) Test Case: Canceling a non-existent order
+
 Expected Result: Order cancellation fails, and an error message is returned indicating the order does not exist
+
 Actual Result: Order cancellation fails, and an error message is returned indicating the order does not exist
+
 Pass/Fail: Pass
+
 (5) Test Case: Successfully retrieve an order
+
 Expected Result: The order information is successfully retrieved, and the correct order information is returned
+
 Actual Result: The order information is successfully retrieved, and the correct order information is returned
+
 Pass/Fail: Pass
+
 (6) Test Case: Retrieving a non-existent order
+
 Expected Result: Failed to retrieve the order, and an error message is returned indicating the order does not exist
+
 Actual Result: Failed to retrieve the order, and an error message is returned indicating the order does not exist
+
 Pass/Fail: Pass

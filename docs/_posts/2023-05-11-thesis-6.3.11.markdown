@@ -1,21 +1,33 @@
 ---
 layout: post
 title: '6.3.11.Logistics Query Service Testing'
-date: 2023-07-16 10:49:33 +0800
+date: 2023-03-16 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.3.11.Logistics Query Service Testing
 
+
 (1) Test Case: Successful query
+
 Expected Result: Successful query and return of order logistics information
+
 Actual Result: Successful query and return of order logistics information
+
 Pass/Fail: Pass
+
 (2) Test Case: Non-existent order ID
+
 Expected Result: Query fails and returns an error message
+
 Actual Result: Query fails and returns an error message
+
 Pass/Fail: Pass
+
 (3) Test Case: Inputting illegal characters
+
 Expected Result: Query fails and returns an error message
+
 Actual Result: Query fails and returns an error message
+
 Pass/Fail: Pass

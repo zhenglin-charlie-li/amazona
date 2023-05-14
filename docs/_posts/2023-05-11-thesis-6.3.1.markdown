@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '6.3.Test Execution and Test Reporting'
-date: 2023-07-07 10:49:33 +0800
+date: 2023-03-07 10:49:33 +0800
 categories: Notes
 ---
 
@@ -9,15 +9,27 @@ categories: Notes
 
 ### 6.3.1.User Registration Service Test
 
+
 (1) Test case: Successful registration scenario
+
 Expected result: Successfully registered and returned User ID
+
 Actual result: Successfully registered and returned User ID
+
 Test pass/fail: Passed
+
 (2) Test case: Username already exists scenario
+
 Expected result: Registration fails and returns an error message
+
 Actual result: Registration fails and returns an error message
+
 Test pass/fail: Passed
+
 (3) Test case: Inputting illegal characters scenario
+
 Expected result: Registration fails and returns an error message
+
 Actual result: Registration fails and returns an error message
+
 Test pass/fail: Passed

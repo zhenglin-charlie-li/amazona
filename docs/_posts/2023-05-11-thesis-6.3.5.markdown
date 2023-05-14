@@ -1,25 +1,41 @@
 ---
 layout: post
 title: '6.3.5.Product Search Service Test'
-date: 2023-07-11 10:49:33 +0800
+date: 2023-03-11 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.3.5.Product Search Service Test
 
+
 (1) Test Case: Successfully searching for products
+
 Expected Result: Successfully search and return a list of matching products
+
 Actual Result: Successfully search and return a list of matching products
+
 Pass/Fail: Pass
+
 (2) Test Case: Empty search term
+
 Expected Result: Search failed and return error message
+
 Actual Result: Search failed and return error message
+
 Pass/Fail: Pass
+
 (3) Test Case: Empty result for product search
+
 Expected Result: Successful search but returned product list is empty
+
 Actual Result: Successful search but returned product list is empty
+
 Pass/Fail: Pass
+
 (4) Test Case: Server error
+
 Expected Result: Search failed and return error message
+
 Actual Result: Search failed and return error message
+
 Pass/Fail: Pass

@@ -1,34 +1,59 @@
 ---
 layout: post
 title: '6.2.5.Product Search Service Testing'
-date: 2023-06-27 10:49:33 +0800
+date: 2023-02-27 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.2.5.Product Search Service Testing
 
 (1) Test Case: Successful product search
+
 Test Steps:
-Enter a product search term.
-Click the search button.
-Verify if the returned result contains a list of products that match the search criteria.
+
+- Enter a product search term.
+
+- Click the search button.
+
+- Verify if the returned result contains a list of products that match the search criteria.
+
 Expected Result: Successful search and return of matching product list.
+
 (2) Test Case: Empty search term
+
 Test Steps:
-Set the search term to be empty.
-Click the search button.
-Verify if the returned result is an error message, including the error code and description.
+
+- Set the search term to be empty.
+
+- Click the search button.
+
+- Verify if the returned result is an error message, including the error code and description.
+
 Expected Result: Search fails and returns an error message.
+
 (3) Test Case: Empty product search result
+
 Test Steps:
-Enter a non-existent product search term.
-Click the search button.
-Verify if the returned result is empty.
+
+- Enter a non-existent product search term.
+
+- Click the search button.
+
+- Verify if the returned result is empty.
+
 Expected Result: Search succeeds but returns an empty list of products.
+
 (4) Test Case: Server error
+
 Test Steps:
-Simulate a server error.
-Enter a product search term.
-Click the search button.
-Verify if the returned result is an error message, including the error code and description.
+
+- Simulate a server error.
+
+- Enter a product search term.
+
+- Click the search button.
+
+- Verify if the returned result is an error message, including the error code and description.
+
 Expected Result: Search fails and returns an error message.
+

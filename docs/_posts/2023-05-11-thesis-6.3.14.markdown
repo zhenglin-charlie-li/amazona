@@ -1,29 +1,49 @@
 ---
 layout: post
 title: '6.3.14.Review Submission Service Testing'
-date: 2023-07-19 10:49:33 +0800
+date: 2023-03-19 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.3.14.Review Submission Service Testing
 
+
 (1) Test Case: Successful review submission
+
 Expected Result: Successful submission of review and return of correct review ID
+
 Actual Result: Successful submission of review and return of correct review ID
+
 Pass/Fail: Pass
+
 (2) Test Case: Non-existent product ID
+
 Expected Result: Review submission fails and returns an error message
+
 Actual Result: Review submission fails and returns an error message
+
 Pass/Fail: Pass
+
 (3) Test Case: Non-existent user ID
+
 Expected Result: Review submission fails and returns an error message
+
 Actual Result: Review submission fails and returns an error message
+
 Pass/Fail: Pass
+
 (4) Test Case: Illegal input of review rating
+
 Expected Result: Review submission fails and returns an error message
+
 Actual Result: Review submission fails and returns an error message
+
 Pass/Fail: Pass
+
 (5) Test Case: Empty comment content
+
 Expected Result: Review submission fails and returns an error message
+
 Actual Result: Review submission fails and returns an error message
+
 Pass/Fail: Pass

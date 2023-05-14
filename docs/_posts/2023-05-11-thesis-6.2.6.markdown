@@ -1,45 +1,81 @@
 ---
 layout: post
 title: '6.2.6.Product Detail Service Testing'
-date: 2023-06-28 10:49:33 +0800
+date: 2023-02-28 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.2.6.Product Detail Service Testing
 
 (1) Test Case: Successful retrieval of product details
+
 Test Steps:
-Enter a product ID.
-Call the "Get Product Detail" API to retrieve product details.
-Verify if the returned result contains the detailed information of the product, such as product image, description, and reviews.
+
+- Enter a product ID.
+
+- Call the "Get Product Detail" API to retrieve product details.
+
+- Verify if the returned result contains the detailed information of the product, such as product image, description, and reviews.
+
 Expected Result: Successful retrieval of product details with all relevant information.
+
 (2) Test Case: Retrieval of non-existent product details
+
 Test Steps:
-Enter a non-existent product ID.
-Call the "Get Product Detail" API to retrieve product details.
-Verify if the returned result is a failure and check the error message.
+
+- Enter a non-existent product ID.
+
+- Call the "Get Product Detail" API to retrieve product details.
+
+- Verify if the returned result is a failure and check the error message.
+
 Expected Result: Retrieval of product details fails and returns an error message.
+
 (3) Test Case: Successful retrieval of product reviews
+
 Test Steps:
-Enter a product ID.
-Call the "Get Product Reviews" API to retrieve the list of product reviews.
-Verify if the returned result contains the reviews related to the product.
+
+- Enter a product ID.
+
+- Call the "Get Product Reviews" API to retrieve the list of product reviews.
+
+- Verify if the returned result contains the reviews related to the product.
+
 Expected Result: Successful retrieval of product reviews and return of the review list.
+
 (4) Test Case: Retrieval of product reviews fails
+
 Test Steps:
-Enter a non-existent product ID.
-Call the "Get Product Reviews" API to retrieve the list of product reviews.
-Verify if the returned result is a failure and check the error message.
+
+- Enter a non-existent product ID.
+
+- Call the "Get Product Reviews" API to retrieve the list of product reviews.
+
+- Verify if the returned result is a failure and check the error message.
+
 Expected Result: Retrieval of product reviews fails and returns an error message.
+
 (5) Test Case: Successful posting of a product review
+
 Test Steps:
-Enter the product ID, user ID, and review content.
-Call the "Post Product Review" API to post the product review.
-Verify if the returned result is a success and returns the review ID.
-Expected Result: Successful posting of the product review and return of the review ID.
+
+- Enter the product ID, user ID, and review content.
+
+- Call the "Post Product Review" API to post the product review.
+
+- Verify if the returned result is a success and returns the review ID.
+
+- Expected Result: Successful posting of the product review and return of the review ID.
+
 (6) Test Case: Posting of a product review fails
+
 Test Steps:
-Enter a non-existent product ID, user ID, and review content.
-Call the "Post Product Review" API to post the product review.
-Verify if the returned result is a failure and check the error message.
+
+- Enter a non-existent product ID, user ID, and review content.
+
+- Call the "Post Product Review" API to post the product review.
+
+- Verify if the returned result is a failure and check the error message.
+
 Expected Result: Posting of the product review fails and returns an error message.
+

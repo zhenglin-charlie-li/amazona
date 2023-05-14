@@ -1,57 +1,105 @@
 ---
 layout: post
 title: '6.2.13.Evaluation Query Service Testing'
-date: 2023-07-05 10:49:33 +0800
+date: 2023-03-05 10:49:33 +0800
 categories: Notes
 ---
 
 ### 6.2.13.Evaluation Query Service Testing
 
+
 (1) Test case: Successful retrieval of product evaluations
+
 Test steps:
-Enter a valid product ID;
-Call the get product evaluations API;
-Verify if the return result is successful;
-Verify if the returned evaluation information matches the expected result.
+
+- Enter a valid product ID;
+
+- Call the get product evaluations API;
+
+- Verify if the return result is successful;
+
+- Verify if the returned evaluation information matches the expected result.
+
 Expected result: Successfully retrieve product evaluation information.
+
 (2) Test case: Failure in retrieving product evaluations (non-existent product ID)
+
 Test steps:
+
 Enter an invalid product ID;
-Call the get product evaluations API;
-Verify if the return result is a failure and check the error message.
-Expected result: Failure in retrieving product evaluations and return of an error message.
+
+- Call the get product evaluations API;
+
+- Verify if the return result is a failure and check the error message.
+
+- Expected result: Failure in retrieving product evaluations and return of an error message.
+
 (3) Test case: Successful retrieval of user evaluations
+
 Test steps:
+
 Enter a valid user ID;
-Call the get user evaluations API;
-Verify if the return result is successful;
-Verify if the returned evaluation information matches the expected result.
+
+- Call the get user evaluations API;
+
+- Verify if the return result is successful;
+
+- Verify if the returned evaluation information matches the expected result.
+
 Expected result: Successfully retrieve user evaluation information.
+
 (4) Test case: Failure in retrieving user evaluations (non-existent user ID)
+
 Test steps:
-Enter an invalid user ID;
-Call the get user evaluations API;
-Verify if the return result is a failure and check the error message.
+
+- Enter an invalid user ID;
+
+- Call the get user evaluations API;
+
+- Verify if the return result is a failure and check the error message.
+
 Expected result: Failure in retrieving user evaluations and return of an error message.
+
 (5) Test case: Successful cache retrieval
+
 Test steps:
+
 Enter a valid product ID;
-Call the get product evaluations API;
-Disable the database connection;
-Call the get product evaluations API again;
-Verify if the return result is successful;
-Verify if the returned evaluation information matches the expected result.
+
+- Call the get product evaluations API;
+
+- Disable the database connection;
+
+- Call the get product evaluations API again;
+
+- Verify if the return result is successful;
+
+- Verify if the returned evaluation information matches the expected result.
+
 Expected result: Successfully retrieve product evaluations from the cache.
+
 (6) Test case: Failure in cache retrieval (non-existent product ID)
+
 Test steps:
-Enter an invalid product ID;
-Call the get product evaluations API;
-Disable the database connection;
-Call the get product evaluations API again;
-Verify if the return result is a failure and check the error message.
+
+- Enter an invalid product ID;
+
+- Call the get product evaluations API;
+
+- Disable the database connection;
+
+- Call the get product evaluations API again;
+
+- Verify if the return result is a failure and check the error message.
+
 Expected result: Failure in retrieving product evaluations from the cache and return of an error message.
+
 (7) Test case: Logging functionality test
+
 Test steps:
-Trigger an error or exception on the server-side;
-Check the log file;
+
+- Trigger an error or exception on the server-side;
+
+- Check the log file;
+
 Expected result: The service is able to log errors and exceptions and can perform log analysis and troubleshooting correctly.

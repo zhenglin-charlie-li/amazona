@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '6.2.4.Product Catalog Service Testing'
-date: 2023-06-26 10:49:33 +0800
+date: 2023-02-26 10:49:33 +0800
 categories: Notes
 ---
 
@@ -11,11 +11,11 @@ categories: Notes
 
 Test Steps:
 
-Enter an existing product ID.
+- Enter an existing product ID.
 
-Call the API to retrieve product information.
+- Call the API to retrieve product information.
 
-Verify if the returned result contains the correct product name, description, and price.
+- Verify if the returned result contains the correct product name, description, and price.
 
 Expected Result: Successful retrieval of product information with correct details.
 
@@ -23,11 +23,11 @@ Expected Result: Successful retrieval of product information with correct detail
 
 Test Steps:
 
-Enter a non-existent product ID.
+- Enter a non-existent product ID.
 
-Call the API to retrieve product information.
+- Call the API to retrieve product information.
 
-Verify if the returned result is a failure and check the error message.
+- Verify if the returned result is a failure and check the error message.
 
 Expected Result: Retrieval of product information fails and returns an error message.
 
@@ -35,10 +35,10 @@ Expected Result: Retrieval of product information fails and returns an error mes
 
 Test Steps:
 
-Enter an illegal product ID, such as including special characters or exceeding the length limit.
+- Enter an illegal product ID, such as including special characters or exceeding the length limit.
 
-Call the API to retrieve product information.
+- Call the API to retrieve product information.
 
-Verify if the returned result is a failure and check the error message.
+- Verify if the returned result is a failure and check the error message.
 
 Expected Result: Retrieval of product information fails and returns an error message.
